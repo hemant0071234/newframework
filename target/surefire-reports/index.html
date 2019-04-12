@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite2">
+              <span class="suite-name border-skipped">Suite2</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite2">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite2">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite2">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite2">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite2">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite2">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite2">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite2" class="hide-methods skipped suite-Suite2"> (hide)</a> <!-- hide-methods skipped suite-Suite2 -->
+                      <a href="#" panel-name="suite-Suite2" class="show-methods skipped suite-Suite2"> (show)</a> <!-- show-methods skipped suite-Suite2 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite2">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestContactUsEmailLabelText">TestContactUsEmailLabelText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestContactUsTestWithMultipleData">TestContactUsTestWithMultipleData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestContactUsTestWithMultipleData">TestContactUsTestWithMultipleData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestCreateQueryWithAllFields">TestCreateQueryWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestCreateQueryWithRequiredFields">TestCreateQueryWithRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestGotoPrivacyPolicyPage">TestGotoPrivacyPolicyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestMandatoryFields">TestMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite2" title="tests.ui.ContactUsTests" hash-for-method="TestMoreThan500CharactersNotAllowed">TestMoreThan500CharactersNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite2 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite2" class="panel Suite2">
+          <div class="suite-Suite2-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.ui.ContactUsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactUsEmailLabelText">
+                  </a> <!-- TestContactUsEmailLabelText -->
+                  <span class="method-name">TestContactUsEmailLabelText</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactUsTestWithMultipleData">
+                  </a> <!-- TestContactUsTestWithMultipleData -->
+                  <span class="method-name">TestContactUsTestWithMultipleData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestContactUsTestWithMultipleData">
+                  </a> <!-- TestContactUsTestWithMultipleData -->
+                  <span class="method-name">TestContactUsTestWithMultipleData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCreateQueryWithAllFields">
+                  </a> <!-- TestCreateQueryWithAllFields -->
+                  <span class="method-name">TestCreateQueryWithAllFields</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCreateQueryWithRequiredFields">
+                  </a> <!-- TestCreateQueryWithRequiredFields -->
+                  <span class="method-name">TestCreateQueryWithRequiredFields</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGotoPrivacyPolicyPage">
+                  </a> <!-- TestGotoPrivacyPolicyPage -->
+                  <span class="method-name">TestGotoPrivacyPolicyPage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMandatoryFields">
+                  </a> <!-- TestMandatoryFields -->
+                  <span class="method-name">TestMandatoryFields</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMoreThan500CharactersNotAllowed">
+                  </a> <!-- TestMoreThan500CharactersNotAllowed -->
+                  <span class="method-name">TestMoreThan500CharactersNotAllowed</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite2-class-skipped -->
+        </div> <!-- panel Suite2 -->
+        <div panel-name="test-xml-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/hjanrao/OWN/contact/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;all-tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.ContactUsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- all-tests --&gt;
+&lt;/suite&gt; &lt;!-- Suite2 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">all-tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCreateQueryWithRequiredFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite2');
+function tableData_Suite2() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestMandatoryFields')
+data.setCell(0, 2, 'tests.ui.ContactUsTests')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestMoreThan500CharactersNotAllowed')
+data.setCell(1, 2, 'tests.ui.ContactUsTests')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestContactUsTestWithMultipleData')
+data.setCell(2, 2, 'tests.ui.ContactUsTests')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestContactUsEmailLabelText')
+data.setCell(3, 2, 'tests.ui.ContactUsTests')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCreateQueryWithRequiredFields')
+data.setCell(4, 2, 'tests.ui.ContactUsTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestGotoPrivacyPolicyPage')
+data.setCell(5, 2, 'tests.ui.ContactUsTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestContactUsTestWithMultipleData')
+data.setCell(6, 2, 'tests.ui.ContactUsTests')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestCreateQueryWithAllFields')
+data.setCell(7, 2, 'tests.ui.ContactUsTests')
+data.setCell(7, 3, 0);
+window.suiteTableData['Suite2']= { tableData: data, tableDiv: 'times-div-Suite2'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Suite2">
+              </div> <!-- times-div-Suite2 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite2</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite2" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.ContactUsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestContactUsEmailLabelText</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestContactUsTestWithMultipleData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestContactUsTestWithMultipleData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCreateQueryWithAllFields</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCreateQueryWithRequiredFields</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestGotoPrivacyPolicyPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMandatoryFields</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMoreThan500CharactersNotAllowed</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">baseTestBeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeDriver</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">3550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestContactUsEmailLabelText())</span>
+                <span class="method-start">8555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestContactUsEmailLabelText())</span>
+                <span class="method-start">8650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">8768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">8774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">8775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.Str...)</span>
+                <span class="method-start">8781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields())</span>
+                <span class="method-start">8782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields())</span>
+                <span class="method-start">8787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields())</span>
+                <span class="method-start">8788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields())</span>
+                <span class="method-start">8793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage())</span>
+                <span class="method-start">8794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage())</span>
+                <span class="method-start">8800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestMandatoryFields())</span>
+                <span class="method-start">8800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestMandatoryFields())</span>
+                <span class="method-start">8806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logStartMethod(public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed())</span>
+                <span class="method-start">8807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logEndMethod(public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed())</span>
+                <span class="method-start">8813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">8814 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">baseTestAfterClass</span>
+                <span class="method-start">8914 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

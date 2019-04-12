@@ -1,0 +1,117 @@
+{
+  "1f9f7e7be2c9ee26920cc65d9892bec3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe2f46821f41e6d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555082030073,
+        "stop" : 1555082032842,
+        "duration" : 2769
+      }
+    } ]
+  },
+  "af4e80afe5e81758f4e06eac8bb93c7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea2da32e9f5b8fc2",
+      "status" : "skipped",
+      "statusDetails" : "timeout\n  (Session info: chrome=73.0.3683.103)\n  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'\nSystem info: host: 'ALT01722', ip: 'fe80:0:0:0:4fc:520b:8364:dc56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/_g/dtgs_lxs3qg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50233}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 9bb0ae23b0fb6e44d0f6f00df228c25f",
+      "time" : {
+        "start" : 1555081858598,
+        "stop" : 1555081858599,
+        "duration" : 1
+      }
+    } ]
+  },
+  "154ec8c349baf629503f95e711016039" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b974b0c6a1505791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555082034469,
+        "stop" : 1555082036627,
+        "duration" : 2158
+      }
+    } ]
+  },
+  "da70e83ab1c8738976e59bd44ccdc95d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e69d3db5f6f1614e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555082015598,
+        "stop" : 1555082015680,
+        "duration" : 82
+      }
+    } ]
+  },
+  "b3d8f73132e841c127c075b9ffb95b8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe4034480962152a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555082025790,
+        "stop" : 1555082028703,
+        "duration" : 2913
+      }
+    } ]
+  },
+  "f14b5f7980082d54b1b0f123639998b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd9222f2129c449f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555082021542,
+        "stop" : 1555082024663,
+        "duration" : 3121
+      }
+    } ]
+  }
+}
