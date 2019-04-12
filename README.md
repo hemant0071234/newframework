@@ -1,4 +1,6 @@
 
+Used Page Object Model design pattern for test automation.
+
  To run tests
  ------------
  prerequisite: 
@@ -22,7 +24,7 @@
  To generate test report
  -----------------------
  prerequisite: 
- Allure report to be installed : http://allure.qatools.ru/
+ Allure report to be installed : [a link] http://allure.qatools.ru/
  
  Once allure is setup goto project directory and run below command
  * allure serve
