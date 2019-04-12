@@ -65,6 +65,10 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
     @FindBy(css = "span.contact__form__legal > a")
     private WebElement lnkPrivacyPolicy;
 
+    @FindBy(css = "div.cookie-bar__cookie-warning__close-x.js-accept-cookies")
+    private WebElement cookieClose;
+
+
     @Step("Create the contact request")
     public void contactUSTest(String firstName, String lastName, String emilAddress,
                               String companyName, String companyURL, String newLetters,
@@ -126,8 +130,11 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
         return WebUtils.getTextValue(wd, lblEmailContact);
     }
 
-
     public void gotoPrivacyPolicy(){
+
+        if(WebUtils.isElementDisplayed(cookieClose)){
+            WebUtils.clickWithWaitForElement(wd, cookieClose, 30);
+        }
         WebUtils.clickWithWaitForElement(wd, lnkPrivacyPolicy);
     }
 
@@ -170,7 +177,7 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
 
     public void setFocus(){
         JavascriptExecutor jsx = (JavascriptExecutor)wd;
-        jsx.executeScript("window.scrollBy(0,420)", "");
+        jsx.executeScript("window.scrollBy(0,450)", "");
 
     }
 }
