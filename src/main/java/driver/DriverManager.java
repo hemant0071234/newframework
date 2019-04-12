@@ -61,7 +61,7 @@ public class DriverManager
 
 					return new EdgeDriver();
 				} else{
-					log.info("Client Machine is windows");
+					log.info("Client Machine is not windows");
 				}
 
 			case CHROME:
