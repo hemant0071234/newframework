@@ -1,6 +1,7 @@
 package tests.ui;
 
 import base.BaseUITest;
+import constants.Groups;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -34,9 +35,8 @@ public class LandingPageTests extends BaseUITest
     }
 
 
-    @Test(retryAnalyzer = Retry.class)
+    @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact menu")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestNavigateFromContactMenuOption(){
         landingPage.gotoContactPageByContactMenu();
 
@@ -48,9 +48,8 @@ public class LandingPageTests extends BaseUITest
                 "Some elements on the page are not loaded properly");
     }
 
-    @Test(retryAnalyzer = Retry.class)
+    @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact us link")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestNavigateFromContactUsLink(){
         landingPage.gotoContactPageByContactUsLink();
 

@@ -3,8 +3,6 @@ package tests.ui;
 import base.BaseUITest;
 import constants.Groups;
 import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import listners.Retry;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -37,7 +35,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class, dataProvider="getData")
     @Description("Send data with different data sets mentioned in data provider")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestContactUsTestWithMultipleData(String firstName, String lastName, String emilAddress,
                                                   String companyName, String companyURL, String newLetters,
                                                   String role, String countryName, String phoneNumber,
@@ -51,9 +48,8 @@ public class ContactUsTests extends BaseUITest
                         "In the meantime check out our latest news."));
     }
 
-    @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY})
+    @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Send data with only required fields information")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestCreateQueryWithRequiredFields(){
         contactPage.contactUSTest(
                 "Hemant",
@@ -75,7 +71,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Send data with all the fields information")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestCreateQueryWithAllFields(){
         contactPage.contactUSTest(
                 "Hemant",
@@ -97,7 +92,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Send data with all the fields information")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestMoreThan500CharactersNotAllowed(){
 
         String moreThan500Chars = "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.\n" +
@@ -139,7 +133,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Verify the contact us information on contact page")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestContactUsEmailLabelText(){
         Assert.assertTrue(contactPage.getContactUsText().equalsIgnoreCase(
                 "if you're a Consumer, please reach us out directly at individualrights@dunnhumby.com"));
@@ -147,7 +140,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Go to Privacy policy page")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestGotoPrivacyPolicyPage(){
 
         contactPage.gotoPrivacyPolicy();
@@ -157,7 +149,6 @@ public class ContactUsTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Go to Privacy policy page")
-    @Severity(SeverityLevel.CRITICAL)
     public void TestMandatoryFields(){
 
         contactPage.submitData();
