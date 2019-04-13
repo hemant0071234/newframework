@@ -3,8 +3,6 @@ package tests.ui;
 import base.BaseUITest;
 import constants.Groups;
 import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import listners.Retry;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -26,6 +24,8 @@ public class LandingPageTests extends BaseUITest
     public void beforeMethod()
     {
         landingPage.navigateTo();
+        Assert.assertTrue(landingPage.isLandingPageLoaded(),
+                "Some elements on the page are not loaded properly");
     }
 
     @AfterClass()
@@ -38,6 +38,7 @@ public class LandingPageTests extends BaseUITest
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact menu")
     public void TestNavigateFromContactMenuOption(){
+
         landingPage.gotoContactPageByContactMenu();
 
         Assert.assertEquals(wd.getCurrentUrl(), "https://www.sociomantic.com/contact/");
@@ -51,6 +52,7 @@ public class LandingPageTests extends BaseUITest
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact us link")
     public void TestNavigateFromContactUsLink(){
+
         landingPage.gotoContactPageByContactUsLink();
 
         Assert.assertEquals(wd.getCurrentUrl(), "https://www.sociomantic.com/contact/");
