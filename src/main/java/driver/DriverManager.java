@@ -30,7 +30,7 @@ public class DriverManager
 		WebDriver driver = getWebdriver(browser);
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		System.setProperty("webdriver.timeouts.implicitlywait", "1");
+		System.setProperty("webdriver.timeouts.implicitlywait", "30");
 
 		return driver;
 	}

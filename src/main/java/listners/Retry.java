@@ -2,12 +2,13 @@ package listners;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
+import utils.PropertyUtils;
 
 
 public class Retry implements IRetryAnalyzer {
 
     private int count = 0;
-    private static int maxTry = 1;
+    private static int maxTry = (int) PropertyUtils.getRetryCount();
 
     @Override
     public boolean retry(ITestResult iTestResult) {

@@ -156,6 +156,7 @@ public class ContactUsTests extends BaseUITest
                 equalsIgnoreCase("https://www.sociomantic.com/website-privacy/"));
     }
 
+
     @Test(retryAnalyzer = Retry.class)
     @Description("Go to Privacy policy page")
     @Severity(SeverityLevel.CRITICAL)
@@ -190,7 +191,6 @@ public class ContactUsTests extends BaseUITest
                 "Thanks! We'll be in touch soon.\n" +
                         "In the meantime check out our latest news."));
     }
-
 
     @DataProvider(name="getData")
     public Object[][] getTestData() throws IOException {

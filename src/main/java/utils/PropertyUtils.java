@@ -49,4 +49,9 @@ public class PropertyUtils {
 		return Long.parseLong(System.getProperty("defaultTimeoutForElement", PROPERTIES.getProperty("defaultTimeoutForElement")));
 	}
 
+	public static long getRetryCount()
+	{
+		return Long.parseLong(System.getProperty("retyCount", PROPERTIES.getProperty("retyCount")));
+	}
+
 }

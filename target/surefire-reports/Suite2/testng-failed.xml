@@ -3,26 +3,20 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite2]">
   <test thread-count="5" verbose="0" name="all-tests(failed)">
     <classes>
-      <class name="tests.ui.ContactUsTests">
+      <class name="tests.ui.LandingPageTests">
         <methods>
-          <include name="TestCreateQueryWithRequiredFields"/>
           <include name="logStartMethod"/>
           <include name="baseTestBeforeClass"/>
+          <include name="beforeClass"/>
+          <include name="TestNavigateFromContactUsLink"/>
           <include name="initializeDriver"/>
           <include name="destroyDriver"/>
-          <include name="TestMandatoryFields"/>
-          <include name="beforeClass"/>
-          <include name="TestMoreThan500CharactersNotAllowed"/>
-          <include name="beforeMethod"/>
-          <include name="TestGotoPrivacyPolicyPage"/>
-          <include name="TestContactUsEmailLabelText"/>
           <include name="logEndMethod"/>
+          <include name="beforeMethod"/>
           <include name="afterTests"/>
-          <include name="TestCreateQueryWithAllFields"/>
-          <include name="TestContactUsTestWithMultipleData"/>
           <include name="baseTestAfterClass"/>
         </methods>
-      </class> <!-- tests.ui.ContactUsTests -->
+      </class> <!-- tests.ui.LandingPageTests -->
     </classes>
   </test> <!-- all-tests(failed) -->
 </suite> <!-- Failed suite [Suite2] -->

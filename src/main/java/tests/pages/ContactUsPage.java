@@ -9,11 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ContactUsPage extends BasePage<ContactUsPage> {
+
     public ContactUsPage(WebDriver driver) {
         super(driver);
     }
-
 
     @Override
     public String getURL() {
@@ -68,6 +71,34 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
     @FindBy(css = "div.cookie-bar__cookie-warning__close-x.js-accept-cookies")
     private WebElement cookieClose;
 
+
+
+    public boolean isContactUsPageoaded(){
+
+        List<WebElement> allElements = new ArrayList<WebElement>();
+
+        allElements.add(txtbxFirstName);
+        allElements.add(txtbxLastName);
+        allElements.add(txtbxEmailId);
+        allElements.add(txtbxCompany);
+        allElements.add(txtbxCompanyURL);
+        allElements.add(chbkNewsLetters);
+        allElements.add(selRole);
+        allElements.add(selCountry);
+        allElements.add(txtbxCountryCode);
+        allElements.add(txtbxPhoneNumber);
+        allElements.add(txtbxDescription);
+        allElements.add(btnSubmit);
+        allElements.add(lblEmailContact);
+
+        try {
+            WebUtils.waitForElementsToBeDisplayed(wd, allElements, 30);
+            return true;
+        } catch (Exception e){
+            return false;
+        }
+
+    }
 
     @Step("Create the contact request")
     public void contactUSTest(String firstName, String lastName, String emilAddress,
@@ -150,7 +181,6 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
                 "/following-sibling::*/div[contains(@class,'error-container--icon')]"));
     }
 
-
     public boolean isWarningSymbolDisplayed(String labelName){
         try {
             return WebUtils.isElementDisplayed(getWarningSymbol(labelName));
@@ -162,7 +192,6 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
 
         return WebUtils.getTextValue(wd, getWarningSymbol(labelName));
     }
-
 
     public void hoverOnWarningSymbol(String labelName){
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="82.384" tests="18" errors="0" skipped="9" failures="9">
+<testsuite name="TestSuite" time="45.47" tests="11" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.201-b09"/>
-    <property name="browser" value="opera"/>
+    <property name="browser" value="Opera"/>
     <property name="user.country.format" value="DE"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=opera"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=Opera"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,113 +62,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="beforeClass" classname="tests.ui.ContactUsTests" time="8.959">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome with embedded Chromium 73.0.3683.86)&#10;  (Driver info: OperaDriver=2.45.3255 (O60),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;ALT01722&apos;, ip: &apos;fe80:0:0:0:4fc:520b:8364:dc56%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.opera.OperaDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.3255 (O60), userDataDir: /var/folders/_g/dtgs_lxs3qg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49647}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}&#10;Session ID: 40e1a30715bd48017cd2beb3486e136b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome with embedded Chromium 73.0.3683.86)
-  (Driver info: OperaDriver=2.45.3255 (O60),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'ALT01722', ip: 'fe80:0:0:0:4fc:520b:8364:dc56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.3255 (O60), userDataDir: /var/folders/_g/dtgs_lxs3qg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49647}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 40e1a30715bd48017cd2beb3486e136b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
-	at base.BasePage.acceptAlertIfPresent(BasePage.java:35)
-	at base.BasePage.navigateTo(BasePage.java:55)
-	at tests.ui.ContactUsTests.beforeClass(ContactUsTests.java:23)
-</failure>
-    <system-err>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (tests.ui.ContactUsTests).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting OperaDriver 2.45.3255 (O60) on port 33447
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Apr 12, 2019 8:44:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.027">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestContactUsEmailLabelText" classname="tests.ui.ContactUsTests" time="0">
+  <testcase name="TestContactUsEmailLabelText" classname="tests.ui.ContactUsTests" time="0.083"/>
+  <testcase name="TestContactUsTestWithMultipleData" classname="tests.ui.ContactUsTests" time="4.095"/>
+  <testcase name="TestContactUsTestWithMultipleData" classname="tests.ui.ContactUsTests" time="3.244"/>
+  <testcase name="TestCreateQueryWithAllFields" classname="tests.ui.ContactUsTests" time="3.424"/>
+  <testcase name="TestCreateQueryWithRequiredFields" classname="tests.ui.ContactUsTests" time="2.872"/>
+  <testcase name="TestGotoPrivacyPolicyPage" classname="tests.ui.ContactUsTests" time="1.059"/>
+  <testcase name="TestMandatoryFields" classname="tests.ui.ContactUsTests" time="13.265"/>
+  <testcase name="TestMoreThan500CharactersNotAllowed" classname="tests.ui.ContactUsTests" time="14.43"/>
+  <testcase name="TestNavigateFromContactMenuOption" classname="tests.ui.LandingPageTests" time="1.557"/>
+  <testcase name="TestNavigateFromContactUsLink" classname="tests.ui.LandingPageTests" time="0">
     <skipped/>
   </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.18">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestContactUsTestWithMultipleData" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.187">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestContactUsTestWithMultipleData" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.194">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestCreateQueryWithAllFields" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.2">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestCreateQueryWithRequiredFields" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.206">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestGotoPrivacyPolicyPage" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.212">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestMandatoryFields" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="beforeMethod" classname="tests.ui.ContactUsTests" time="9.219">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at tests.ui.ContactUsTests.beforeMethod(ContactUsTests.java:29)
-</failure>
-  </testcase>
-  <testcase name="TestMoreThan500CharactersNotAllowed" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterTests" classname="tests.ui.ContactUsTests" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="TestNavigateFromContactUsLink" classname="tests.ui.LandingPageTests" time="1.441"/>
 </testsuite>

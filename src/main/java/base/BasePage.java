@@ -39,10 +39,6 @@ public abstract class BasePage<T extends BasePage>
 		}
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public T navigateTo()
 	{
 		log.info(String.format("Navigating to url - '%s'",getURL()));

@@ -2,7 +2,8 @@
 <suite name="Suite2" verbose="1">
     <test name="all-tests">
         <classes>
-      <class name="tests.ui.ContactUsTests"/>
-    </classes>
+            <class name="tests.ui.ContactUsTests"/>
+            <class name="tests.ui.LandingPageTests"/>
+        </classes>
     </test>
 </suite>

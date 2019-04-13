@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.PropertyUtils;
 
+import java.util.List;
+
 public class WebUtils
 {
 
@@ -22,12 +24,11 @@ public class WebUtils
 				moveToElement(element)
 				.perform();
 	}
-	public static void fill(WebElement element, String value){
+	public static void fill( WebElement element, String value){
 		if(!isElementDisplayed(element))
 		{
 			throw new ElementNotVisibleException(element+" is not visible");
 		}
-
 		element.clear();
 
 		element.sendKeys(value);
@@ -35,8 +36,7 @@ public class WebUtils
 
 	public static boolean isElementDisplayed(WebElement element)
 	{
-		try
-		{
+		try {
 			return element.isDisplayed();
 		}
 		catch(NoSuchElementException | StaleElementReferenceException e)
@@ -55,6 +55,19 @@ public class WebUtils
 		catch(TimeoutException e)
 		{
 			throw new ElementNotVisibleException("Timeout"+element+" is not visible/present.");
+		}
+	}
+
+	public static void waitForElementsToBeDisplayed(WebDriver driver, List<WebElement> elements, long timeout)
+	{
+		try
+		{
+			new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOfAllElements(elements));
+
+		}
+		catch(TimeoutException e)
+		{
+			throw new ElementNotVisibleException("Timeout"+elements+" are not visible/present.");
 		}
 	}
 
