@@ -49,7 +49,7 @@ public class LandingPageTests extends BaseUITest
     }
 
     @Test(retryAnalyzer = Retry.class)
-    @Description("Navigate to contact us page from contact menu")
+    @Description("Navigate to contact us page from contact us link")
     @Severity(SeverityLevel.CRITICAL)
     public void TestNavigateFromContactUsLink(){
         landingPage.gotoContactPageByContactUsLink();
