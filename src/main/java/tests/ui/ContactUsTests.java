@@ -16,7 +16,6 @@ public class ContactUsTests extends BaseUITest
 {
     private ContactUsPage contactPage;
 
-
     @BeforeClass(alwaysRun=true)
     public void beforeClass()
     {
@@ -155,7 +154,6 @@ public class ContactUsTests extends BaseUITest
         Assert.assertTrue(wd.getCurrentUrl().
                 equalsIgnoreCase("https://www.sociomantic.com/website-privacy/"));
     }
-
 
     @Test(retryAnalyzer = Retry.class)
     @Description("Go to Privacy policy page")

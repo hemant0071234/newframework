@@ -37,7 +37,6 @@ public class PropertyUtils {
 		return Browser.valueOf((System.getProperty("browser", PROPERTIES.getProperty("browser")).toUpperCase()));
 	}
 
-
 	public static String getsAppUrl()
 	{
 		return System.getProperty("appsUrl", PROPERTIES.getProperty("appsUrl"));
@@ -53,5 +52,4 @@ public class PropertyUtils {
 	{
 		return Long.parseLong(System.getProperty("retyCount", PROPERTIES.getProperty("retyCount")));
 	}
-
 }
