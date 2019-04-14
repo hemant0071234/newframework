@@ -3,19 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="05c36832-0fc0-4377-87fd-0e19b6a5fd9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testdata.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testdata.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/WebUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testdata.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testdata.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/pages/ContactUsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ui/ContactUsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ui/ContactUsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ui/LandingPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ui/LandingPageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite2/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite2/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.ContactUsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.ContactUsTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.LandingPageTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.LandingPageTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,102 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1066">
-              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4213#4214#0" expanded="true" />
-                <element signature="e#4276#4277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/listners/CustomListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/listners/Retry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
@@ -135,10 +55,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="150" column="31" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4500#4501#0" expanded="true" />
+                <element signature="e#4563#4564#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="83" column="83" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="40" column="110" selection-start-line="40" selection-start-column="110" selection-end-line="40" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,6 +144,8 @@
       <find>India</find>
       <find>group</find>
       <find>extranet</find>
+      <find>sel</find>
+      <find>supp</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -204,18 +176,18 @@
         <option value="$PROJECT_DIR$/src/main/java/listners/Retry.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/constants/Groups.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/listners/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseUITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" />
         <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" />
       </list>
     </option>
@@ -320,6 +292,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -328,7 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555243988827" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555254599766" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -365,8 +342,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LandingPageTests.TestNavigateFromContactUsLink">
-    <configuration name="ContactUsTests.TestRendering" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LandingPageTests">
+    <configuration name="ContactUsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="contact" />
       <extension name="coverage">
         <pattern>
@@ -376,7 +353,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.ui" />
       <option name="MAIN_CLASS_NAME" value="tests.ui.ContactUsTests" />
-      <option name="METHOD_NAME" value="TestRendering" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTests.TestCreateQueryWithAllFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="contact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.ContactUsTests" />
+      <option name="METHOD_NAME" value="TestCreateQueryWithAllFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTests.TestCreateQueryWithRequiredFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="contact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.ContactUsTests" />
+      <option name="METHOD_NAME" value="TestCreateQueryWithRequiredFields" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -401,24 +413,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandingPageTests.TestCreateQueryWithAllFields" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="contact" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ui" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.LandingPageTests" />
-      <option name="METHOD_NAME" value="TestCreateQueryWithAllFields" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="contact" />
       <extension name="coverage">
@@ -437,31 +431,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandingPageTests.TestNavigateFromContactUsLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="contact" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ui" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.LandingPageTests" />
-      <option name="METHOD_NAME" value="TestNavigateFromContactUsLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LandingPageTests.TestNavigateFromContactUsLink" />
         <item itemvalue="TestNG.LandingPageTests" />
-        <item itemvalue="TestNG.LandingPageTests.TestCreateQueryWithAllFields" />
         <item itemvalue="TestNG.LandingPageTests.TestNavigateFromContactMenuOption" />
-        <item itemvalue="TestNG.ContactUsTests.TestRendering" />
+        <item itemvalue="TestNG.ContactUsTests" />
+        <item itemvalue="TestNG.ContactUsTests.TestCreateQueryWithAllFields" />
+        <item itemvalue="TestNG.ContactUsTests.TestCreateQueryWithRequiredFields" />
       </list>
     </recent_temporary>
   </component>
@@ -479,41 +455,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 51m 05s.xml">
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 26m 14s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 27m 11s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 29m 07s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 32m 38s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 35m 30s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactUsTests - 2019.04.14 at 16h 43m 04s.xml">
+      <configuration name="ContactUsTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.14 at 16h 51m 18s.xml">
       <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 51m 49s.xml">
+    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.14 at 16h 51m 40s.xml">
       <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 53m 05s.xml">
-      <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 53m 58s.xml">
-      <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests_TestCreateQueryWithAllFields - 2019.04.13 at 12h 54m 50s.xml">
-      <configuration name="LandingPageTests.TestCreateQueryWithAllFields" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests - 2019.04.13 at 12h 58m 17s.xml">
+    <history-entry file="LandingPageTests - 2019.04.14 at 16h 52m 08s.xml">
       <configuration name="LandingPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPageTests - 2019.04.13 at 13h 00m 29s.xml">
+    <history-entry file="LandingPageTests - 2019.04.14 at 17h 00m 00s.xml">
       <configuration name="LandingPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests - 2019.04.13 at 13h 03m 00s.xml">
-      <configuration name="LandingPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests - 2019.04.13 at 13h 03m 29s.xml">
-      <configuration name="LandingPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LandingPageTests_TestNavigateFromContactUsLink - 2019.04.14 at 13h 57m 26s.xml">
-      <configuration name="LandingPageTests.TestNavigateFromContactUsLink" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,7 +504,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4387755" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4387755" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -570,11 +547,22 @@
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="arrayExcelData" />
         <watch expression="arrayExcelData" />
         <watch expression="parameterValues" />
+        <watch expression="countryNamee" />
       </configuration>
     </watches-manager>
   </component>
@@ -628,13 +616,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1267" column="23" selection-start-line="1267" selection-start-column="23" selection-end-line="1267" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listner.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/impl/dv/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="593" selection-start-line="593" selection-end-line="593" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactUsPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/ContactUsTests.java" />
     <entry file="file://$PROJECT_DIR$/src/base/BasePage.java">
@@ -779,9 +753,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/TestContactUsTestWithMultipleData/snapshot_TestContactUsTestWithMultipleData.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -869,43 +840,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="381" selection-start-line="381" selection-end-line="381" />
           <folding>
             <element signature="e#14292#14293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="95" column="86" selection-start-line="95" selection-start-column="86" selection-end-line="95" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listners/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -937,42 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1066">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4213#4214#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -989,10 +890,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/TestContactUsTestWithMultipleData/snapshot_TestContactUsTestWithMultipleData.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="83" column="83" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="110" selection-start-line="40" selection-start-column="110" selection-end-line="40" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="150" column="31" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4563#4564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>

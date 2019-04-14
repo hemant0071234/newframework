@@ -18,13 +18,6 @@ public class LandingPageTests extends BaseUITest {
         landingPage = new LandingPage(wd).navigateTo();
     }
 
-    @BeforeMethod(alwaysRun = true)
-    public void beforeMethod() {
-        landingPage.navigateTo();
-        Assert.assertTrue(landingPage.isLandingPageLoaded(),
-                "Some elements on the page are not loaded properly");
-    }
-
     @AfterClass()
     public void afterTests() {
         wd.quit();

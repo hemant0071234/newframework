@@ -3,12 +3,14 @@ package tests.pages;
 import base.BasePage;
 import driver.WebUtils;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,7 +73,6 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
     @FindBy(css = "div.cookie-bar__cookie-warning__close-x.js-accept-cookies")
     private WebElement cookieClose;
 
-
     public boolean isContactUsPageoaded() {
 
         List<WebElement> allElements = new ArrayList<WebElement>();
@@ -124,21 +125,38 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
         if (!role.equals("")) {
             WebUtils.clickWithWaitForElement(wd, selRole);
 
-            String roleXpath = "//div[@class='flounder__option' and normalize-space()='" + role + "']";
-            WebUtils.clickWithWaitForElement(wd, wd.findElement(By.xpath(roleXpath)));
+            String roleName = "$(\"div.flounder__list > div:contains('" + role + "')\").click()";
+
+            WebUtils.executeJavascript(wd, roleName);
+            WebUtils.executeJavascript(wd, roleName);
+            pressEscape();
         }
 
-        WebUtils.clickWithWaitForElement(wd, selCountry);
 
-        String countryXpath = "//div[@class='flounder__option' and normalize-space()='" + countryName + "']";
+        String countryNameScript = "$(\"div.flounder__list > div:contains('" + countryName + "')\").click()";
 
-        WebUtils.moveToElementAndClick(wd, wd.findElement(By.xpath(countryXpath)));
+        WebUtils.executeJavascript(wd, countryNameScript);
+        WebUtils.executeJavascript(wd, countryNameScript);
+
+        pressEscape();
 
         WebUtils.fill(txtbxPhoneNumber, phoneNumber);
 
         WebUtils.fill(txtbxDescription, descriptionText);
 
         submitData();
+    }
+
+
+    public void pressEscape() {
+        Robot robot = null;
+        try {
+            robot = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+        robot.keyPress(KeyEvent.VK_ESCAPE);
+        robot.keyRelease(KeyEvent.VK_ESCAPE);
     }
 
     @Step("Submit data")

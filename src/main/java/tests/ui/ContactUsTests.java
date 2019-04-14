@@ -68,7 +68,7 @@ public class ContactUsTests extends BaseUITest {
                 "http://www.testcompany.com",
                 "true",
                 "Agency",
-                "Algeria",
+                "Guinea",
                 "9130021557",
                 "Test description"
         );
@@ -89,7 +89,7 @@ public class ContactUsTests extends BaseUITest {
                 "http://www.testcompany.com",
                 "false",
                 "",
-                "Algeria",
+                "India",
                 "9130021557",
                 "Test description"
         );
@@ -109,8 +109,8 @@ public class ContactUsTests extends BaseUITest {
                 "Test company",
                 "http://www.testcompany.com",
                 "true",
-                "Agency",
-                "Algeria",
+                "Supply-Side Platform",
+                "India",
                 "9130021557",
                 "Test description"
         );

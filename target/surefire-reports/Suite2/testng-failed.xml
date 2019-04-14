@@ -3,20 +3,20 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite2]">
   <test thread-count="5" verbose="0" name="all-tests(failed)">
     <classes>
-      <class name="tests.ui.LandingPageTests">
+      <class name="tests.ui.ContactUsTests">
         <methods>
           <include name="logStartMethod"/>
           <include name="baseTestBeforeClass"/>
-          <include name="beforeClass"/>
-          <include name="TestNavigateFromContactUsLink"/>
           <include name="initializeDriver"/>
           <include name="destroyDriver"/>
           <include name="logEndMethod"/>
-          <include name="beforeMethod"/>
           <include name="afterTests"/>
+          <include name="beforeClass"/>
+          <include name="TestContactUsTestWithMultipleData" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
           <include name="baseTestAfterClass"/>
         </methods>
-      </class> <!-- tests.ui.LandingPageTests -->
+      </class> <!-- tests.ui.ContactUsTests -->
     </classes>
   </test> <!-- all-tests(failed) -->
 </suite> <!-- Failed suite [Suite2] -->

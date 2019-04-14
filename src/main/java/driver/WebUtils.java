@@ -96,6 +96,10 @@ public class WebUtils {
         ((JavascriptExecutor) wd).executeScript("arguments[0].scrollIntoView();", elem);
     }
 
+    public static void executeJavascript(WebDriver wd, String script) {
+        ((JavascriptExecutor) wd).executeScript(script);
+    }
+
 
 
 }
