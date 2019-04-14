@@ -25,7 +25,7 @@ public class LandingPageTests extends BaseUITest {
 
 
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
-    @Description("Navigate to contact us page from contact menu")
+    @Description("Navigate to 'Find Out More' page from contact menu")
     public void TestNavigateFromContactMenuOption() {
 
         landingPage.gotoContactPageByContactMenu();
@@ -39,7 +39,7 @@ public class LandingPageTests extends BaseUITest {
     }
 
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
-    @Description("Navigate to contact us page from contact us link")
+    @Description("Navigate to 'Find Out More' page from contact us link")
     public void TestNavigateFromContactUsLink() {
 
         landingPage.gotoContactPageByContactUsLink();
