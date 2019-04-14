@@ -40,9 +40,8 @@ public class DriverManager {
             case FIREFOX:
 
                 WebDriverManager.firefoxdriver().setup();
-                DesiredCapabilities cap = getFireFoxDesiredCapabilities();
 
-                return new FirefoxDriver(cap);
+                return new FirefoxDriver();
 
             case OPERA:
 
@@ -65,44 +64,11 @@ public class DriverManager {
 
                 WebDriverManager.chromedriver().setup();
 
-                DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-                ChromeOptions option = new ChromeOptions();
-                Map<String, Object> pref = new HashMap<>();
-                pref.put("download.prompt_for_download", false);
-                pref.put("download.default_directory", getDownloadDirectory());
-                option.setExperimentalOption("prefs", pref);
-                option.addArguments("--start-maximized");
-                chromeCapabilities.setCapability(ChromeOptions.CAPABILITY, option);
-
-                return new ChromeDriver(chromeCapabilities);
+                return new ChromeDriver();
 
             default:
                 throw new UnsupportedOperationException("Attempt to start invalid browser " + browser);
         }
     }
 
-
-    private static DesiredCapabilities getFireFoxDesiredCapabilities() {
-        String neverAskSaveToDiskAndOpenFileValues = "application/octet-stream, application/x-zip-compressed, " +
-                "application/zip-compressed, application/zip, multipart/x-zip, application/x-compressed, " +
-                "application/msword, text/plain, image/gif, image/png, application/pdf, application/excel, " +
-                "application/vnd.ms-excel, application/x-excel, application/x-msexcel, text/csv";
-        FirefoxProfile profile = new FirefoxProfile();
-        profile.setPreference("app.update.enabled", false);
-        profile.setPreference("browser.download.folderList", 2);
-        profile.setPreference("browser.download.dir", getDownloadDirectory());
-        profile.setPreference("browser.helperApps.alwaysAsk.force", false);
-        profile.setPreference("browser.download.manager.showWhenStarting", false);
-        profile.setPreference("browser.download.panel.shown", true);
-        profile.setPreference("browser.helperApps.neverAsk.saveToDisk", neverAskSaveToDiskAndOpenFileValues);
-        profile.setPreference("browser.helperApps.neverAsk.openFile", neverAskSaveToDiskAndOpenFileValues);
-        DesiredCapabilities firefoxCapabilities = DesiredCapabilities.firefox();
-        firefoxCapabilities.setCapability(CapabilityType.ELEMENT_SCROLL_BEHAVIOR, ElementScrollBehavior.BOTTOM);
-        firefoxCapabilities.setCapability(FirefoxDriver.PROFILE, profile);
-        return firefoxCapabilities;
-    }
-
-    private static String getDownloadDirectory() {
-        return System.getProperty("user.dir") + File.separator + "target";
-    }
 }

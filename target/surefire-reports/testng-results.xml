@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite2" duration-ms="99713" started-at="2019-04-14T11:58:14Z" finished-at="2019-04-14T11:59:54Z">
+  <suite name="Suite2" duration-ms="163076" started-at="2019-04-14T12:10:28Z" finished-at="2019-04-14T12:13:11Z">
     <groups>
       <group name="Sanity">
         <method signature="ContactUsTests.TestCreateQueryWithRequiredFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestCreateQueryWithRequiredFields" class="tests.ui.ContactUsTests"/>
@@ -15,25 +15,21 @@
         <method signature="LandingPageTests.TestNavigateFromContactUsLink()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="TestNavigateFromContactUsLink" class="tests.ui.LandingPageTests"/>
       </group> <!-- UI -->
     </groups>
-    <test name="all-tests" duration-ms="99713" started-at="2019-04-14T11:58:14Z" finished-at="2019-04-14T11:59:54Z">
+    <test name="all-tests" duration-ms="163076" started-at="2019-04-14T12:10:28Z" finished-at="2019-04-14T12:13:11Z">
       <class name="tests.ui.LandingPageTests">
-        <test-method status="PASS" signature="baseTestBeforeClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="baseTestBeforeClass" is-config="true" duration-ms="1" started-at="2019-04-14T11:59:20Z" finished-at="2019-04-14T11:59:20Z">
+        <test-method status="PASS" signature="baseTestBeforeClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="baseTestBeforeClass" is-config="true" duration-ms="1" started-at="2019-04-14T12:12:34Z" finished-at="2019-04-14T12:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTestBeforeClass -->
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="initializeDriver" is-config="true" duration-ms="2525" started-at="2019-04-14T11:59:20Z" finished-at="2019-04-14T11:59:22Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="initializeDriver" is-config="true" duration-ms="2697" started-at="2019-04-14T12:12:34Z" finished-at="2019-04-14T12:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeClass" is-config="true" duration-ms="8651" started-at="2019-04-14T11:59:22Z" finished-at="2019-04-14T11:59:31Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeClass" is-config="true" duration-ms="12386" started-at="2019-04-14T12:12:36Z" finished-at="2019-04-14T12:12:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeMethod" is-config="true" duration-ms="13706" started-at="2019-04-14T11:59:31Z" finished-at="2019-04-14T11:59:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:31Z" finished-at="2019-04-14T11:59:31Z">
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:12:49Z" finished-at="2019-04-14T12:12:49Z">
           <params>
             <param index="0">
               <value>
@@ -44,22 +40,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="TestNavigateFromContactMenuOption()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="TestNavigateFromContactMenuOption" duration-ms="3839" started-at="2019-04-14T11:59:45Z" finished-at="2019-04-14T11:59:49Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeMethod" is-config="true" duration-ms="15318" started-at="2019-04-14T12:12:49Z" finished-at="2019-04-14T12:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestNavigateFromContactMenuOption()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="TestNavigateFromContactMenuOption" duration-ms="2134" started-at="2019-04-14T12:13:04Z" finished-at="2019-04-14T12:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestNavigateFromContactMenuOption -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logStartMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:59:49Z" finished-at="2019-04-14T11:59:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.LandingPageTests.TestNavigateFromContactUsLink()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:49Z" finished-at="2019-04-14T11:59:49Z">
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:13:06Z" finished-at="2019-04-14T12:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -70,15 +59,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeMethod" is-config="true" duration-ms="1909" started-at="2019-04-14T11:59:49Z" finished-at="2019-04-14T11:59:50Z">
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:13:06Z" finished-at="2019-04-14T12:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.LandingPageTests.TestNavigateFromContactUsLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="beforeMethod" is-config="true" duration-ms="1587" started-at="2019-04-14T12:13:06Z" finished-at="2019-04-14T12:13:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestNavigateFromContactUsLink()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="TestNavigateFromContactUsLink" duration-ms="2463" started-at="2019-04-14T11:59:50Z" finished-at="2019-04-14T11:59:53Z">
+        <test-method status="PASS" signature="TestNavigateFromContactUsLink()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="TestNavigateFromContactUsLink" duration-ms="2094" started-at="2019-04-14T12:13:08Z" finished-at="2019-04-14T12:13:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestNavigateFromContactUsLink -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:59:53Z" finished-at="2019-04-14T11:59:53Z">
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:13:10Z" finished-at="2019-04-14T12:13:10Z">
           <params>
             <param index="0">
               <value>
@@ -89,385 +89,385 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="afterTests()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="afterTests" is-config="true" duration-ms="749" started-at="2019-04-14T11:59:53Z" finished-at="2019-04-14T11:59:54Z">
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="afterTests" is-config="true" duration-ms="734" started-at="2019-04-14T12:13:10Z" finished-at="2019-04-14T12:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="destroyDriver" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:54Z" finished-at="2019-04-14T11:59:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroyDriver -->
-        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:54Z" finished-at="2019-04-14T11:59:54Z">
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2019-04-14T12:13:11Z" finished-at="2019-04-14T12:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTestAfterClass -->
-      </class> <!-- tests.ui.LandingPageTests -->
-      <class name="tests.ui.ContactUsTests">
-        <test-method status="PASS" signature="baseTestBeforeClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="baseTestBeforeClass" is-config="true" duration-ms="9" started-at="2019-04-14T11:58:14Z" finished-at="2019-04-14T11:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseTestBeforeClass -->
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="initializeDriver" is-config="true" duration-ms="3374" started-at="2019-04-14T11:58:14Z" finished-at="2019-04-14T11:58:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeClass" is-config="true" duration-ms="5377" started-at="2019-04-14T11:58:17Z" finished-at="2019-04-14T11:58:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="2" started-at="2019-04-14T11:58:23Z" finished-at="2019-04-14T11:58:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsEmailLabelText()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1384" started-at="2019-04-14T11:58:23Z" finished-at="2019-04-14T11:58:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestContactUsEmailLabelText()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsEmailLabelText" duration-ms="120" started-at="2019-04-14T11:58:24Z" finished-at="2019-04-14T11:58:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestContactUsEmailLabelText -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:58:24Z" finished-at="2019-04-14T11:58:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsEmailLabelText()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:24Z" finished-at="2019-04-14T11:58:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="2168" started-at="2019-04-14T11:58:24Z" finished-at="2019-04-14T11:58:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestContactUsTestWithMultipleData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsTestWithMultipleData" duration-ms="4139" started-at="2019-04-14T11:58:27Z" data-provider="getData" finished-at="2019-04-14T11:58:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hemant]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Janrao]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[hemant.janrao@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test company]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[http://www.testcompany.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Agency]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Algeria]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[9130021557]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Test description]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestContactUsTestWithMultipleData -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:31Z" finished-at="2019-04-14T11:58:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:31Z" finished-at="2019-04-14T11:58:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1546" started-at="2019-04-14T11:58:31Z" finished-at="2019-04-14T11:58:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestContactUsTestWithMultipleData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsTestWithMultipleData" duration-ms="3465" started-at="2019-04-14T11:58:32Z" data-provider="getData" finished-at="2019-04-14T11:58:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hemant]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Janrao]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[hemant.janrao@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Test company]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[http://www.testcompany.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Agency]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Algeria]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[9130021557]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Test description]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestContactUsTestWithMultipleData -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:36Z" finished-at="2019-04-14T11:58:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:36Z" finished-at="2019-04-14T11:58:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1297" started-at="2019-04-14T11:58:36Z" finished-at="2019-04-14T11:58:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestCreateQueryWithAllFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestCreateQueryWithAllFields" duration-ms="3967" started-at="2019-04-14T11:58:37Z" finished-at="2019-04-14T11:58:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCreateQueryWithAllFields -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:41Z" finished-at="2019-04-14T11:58:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1328" started-at="2019-04-14T11:58:41Z" finished-at="2019-04-14T11:58:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:41Z" finished-at="2019-04-14T11:58:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="TestCreateQueryWithRequiredFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestCreateQueryWithRequiredFields" duration-ms="3080" started-at="2019-04-14T11:58:42Z" finished-at="2019-04-14T11:58:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCreateQueryWithRequiredFields -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:45Z" finished-at="2019-04-14T11:58:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1261" started-at="2019-04-14T11:58:45Z" finished-at="2019-04-14T11:58:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:45Z" finished-at="2019-04-14T11:58:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="TestGotoPrivacyPolicyPage()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestGotoPrivacyPolicyPage" duration-ms="1410" started-at="2019-04-14T11:58:47Z" finished-at="2019-04-14T11:58:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestGotoPrivacyPolicyPage -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:48Z" finished-at="2019-04-14T11:58:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:58:48Z" finished-at="2019-04-14T11:58:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestMandatoryFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1263" started-at="2019-04-14T11:58:48Z" finished-at="2019-04-14T11:58:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestMandatoryFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestMandatoryFields" duration-ms="14212" started-at="2019-04-14T11:58:49Z" finished-at="2019-04-14T11:59:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMandatoryFields -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:04Z" finished-at="2019-04-14T11:59:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestMandatoryFields()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:04Z" finished-at="2019-04-14T11:59:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStartMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1265" started-at="2019-04-14T11:59:04Z" finished-at="2019-04-14T11:59:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestMoreThan500CharactersNotAllowed()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestMoreThan500CharactersNotAllowed" duration-ms="14195" started-at="2019-04-14T11:59:05Z" finished-at="2019-04-14T11:59:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMoreThan500CharactersNotAllowed -->
-        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:59:19Z" finished-at="2019-04-14T11:59:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logEndMethod -->
-        <test-method status="PASS" signature="afterTests()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="afterTests" is-config="true" duration-ms="738" started-at="2019-04-14T11:59:19Z" finished-at="2019-04-14T11:59:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTests -->
-        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="destroyDriver" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:20Z" finished-at="2019-04-14T11:59:20Z">
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:tests.ui.LandingPageTests@345965f2]" name="destroyDriver" is-config="true" duration-ms="0" started-at="2019-04-14T12:13:11Z" finished-at="2019-04-14T12:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroyDriver -->
-        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2019-04-14T11:59:20Z" finished-at="2019-04-14T11:59:20Z">
+      </class> <!-- tests.ui.LandingPageTests -->
+      <class name="tests.ui.ContactUsTests">
+        <test-method status="PASS" signature="baseTestBeforeClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="baseTestBeforeClass" is-config="true" duration-ms="9" started-at="2019-04-14T12:10:28Z" finished-at="2019-04-14T12:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestBeforeClass -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="initializeDriver" is-config="true" duration-ms="3774" started-at="2019-04-14T12:10:28Z" finished-at="2019-04-14T12:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeClass" is-config="true" duration-ms="7018" started-at="2019-04-14T12:10:31Z" finished-at="2019-04-14T12:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:10:38Z" finished-at="2019-04-14T12:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsEmailLabelText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1633" started-at="2019-04-14T12:10:39Z" finished-at="2019-04-14T12:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestContactUsEmailLabelText()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsEmailLabelText" duration-ms="129" started-at="2019-04-14T12:10:40Z" finished-at="2019-04-14T12:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactUsEmailLabelText -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:10:40Z" finished-at="2019-04-14T12:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsEmailLabelText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:10:40Z" finished-at="2019-04-14T12:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1286" started-at="2019-04-14T12:10:40Z" finished-at="2019-04-14T12:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestContactUsTestWithMultipleData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsTestWithMultipleData" duration-ms="57046" started-at="2019-04-14T12:10:42Z" data-provider="getData" finished-at="2019-04-14T12:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janrao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hemant.janrao@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test company]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.testcompany.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Agency]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9130021557]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactUsTestWithMultipleData -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:39Z" finished-at="2019-04-14T12:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:39Z" finished-at="2019-04-14T12:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1295" started-at="2019-04-14T12:11:39Z" finished-at="2019-04-14T12:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestContactUsTestWithMultipleData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestContactUsTestWithMultipleData" duration-ms="3360" started-at="2019-04-14T12:11:40Z" data-provider="getData" finished-at="2019-04-14T12:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janrao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hemant.janrao@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test company]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.testcompany.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Agency]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9130021557]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Test description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactUsTestWithMultipleData -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:43Z" finished-at="2019-04-14T12:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestContactUsTestWithMultipleData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:43Z" finished-at="2019-04-14T12:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1621" started-at="2019-04-14T12:11:43Z" finished-at="2019-04-14T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestCreateQueryWithAllFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestCreateQueryWithAllFields" duration-ms="3499" started-at="2019-04-14T12:11:45Z" finished-at="2019-04-14T12:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateQueryWithAllFields -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:49Z" finished-at="2019-04-14T12:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithAllFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1779" started-at="2019-04-14T12:11:49Z" finished-at="2019-04-14T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:11:49Z" finished-at="2019-04-14T12:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="TestCreateQueryWithRequiredFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestCreateQueryWithRequiredFields" duration-ms="2549" started-at="2019-04-14T12:11:50Z" finished-at="2019-04-14T12:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateQueryWithRequiredFields -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:11:53Z" finished-at="2019-04-14T12:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestCreateQueryWithRequiredFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:11:53Z" finished-at="2019-04-14T12:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1822" started-at="2019-04-14T12:11:53Z" finished-at="2019-04-14T12:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestGotoPrivacyPolicyPage()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestGotoPrivacyPolicyPage" duration-ms="6994" started-at="2019-04-14T12:11:55Z" finished-at="2019-04-14T12:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGotoPrivacyPolicyPage -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:12:02Z" finished-at="2019-04-14T12:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestGotoPrivacyPolicyPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:12:02Z" finished-at="2019-04-14T12:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestMandatoryFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1680" started-at="2019-04-14T12:12:02Z" finished-at="2019-04-14T12:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestMandatoryFields()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestMandatoryFields" duration-ms="13588" started-at="2019-04-14T12:12:03Z" finished-at="2019-04-14T12:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMandatoryFields -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-04-14T12:12:17Z" finished-at="2019-04-14T12:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestMandatoryFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="beforeMethod" is-config="true" duration-ms="1691" started-at="2019-04-14T12:12:17Z" finished-at="2019-04-14T12:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logStartMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:12:17Z" finished-at="2019-04-14T12:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="TestMoreThan500CharactersNotAllowed()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="TestMoreThan500CharactersNotAllowed" duration-ms="14340" started-at="2019-04-14T12:12:19Z" finished-at="2019-04-14T12:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMoreThan500CharactersNotAllowed -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="logEndMethod" is-config="true" duration-ms="0" started-at="2019-04-14T12:12:33Z" finished-at="2019-04-14T12:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ui.ContactUsTests.TestMoreThan500CharactersNotAllowed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="afterTests" is-config="true" duration-ms="772" started-at="2019-04-14T12:12:33Z" finished-at="2019-04-14T12:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="destroyDriver" is-config="true" duration-ms="1" started-at="2019-04-14T12:12:34Z" finished-at="2019-04-14T12:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:tests.ui.ContactUsTests@6591f517]" name="baseTestAfterClass" is-config="true" duration-ms="0" started-at="2019-04-14T12:12:34Z" finished-at="2019-04-14T12:12:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTestAfterClass -->
