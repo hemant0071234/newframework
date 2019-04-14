@@ -42,6 +42,6 @@ public class PropertyUtils {
     }
 
     public static long getRetryCount() {
-        return Long.parseLong(System.getProperty("retyCount", PROPERTIES.getProperty("retyCount")));
+        return Long.parseLong(System.getProperty("retryCount", PROPERTIES.getProperty("retryCount")));
     }
 }
