@@ -26,7 +26,7 @@ public class LandingPage extends BasePage<LandingPage> {
     @FindBy(xpath = "//ul[@id='menu-main-menu']//li/a[text()='Contact']")
     private WebElement mnuContact;
 
-    public boolean isLandingPageLoaded(){
+    public boolean isLandingPageLoaded() {
 
         List<WebElement> allElements = new ArrayList<WebElement>();
 
@@ -36,18 +36,18 @@ public class LandingPage extends BasePage<LandingPage> {
         try {
             WebUtils.waitForElementsToBeDisplayed(wd, allElements, 30);
             return true;
-        } catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
-
     }
 
-    public void gotoContactPageByContactUsLink(){
+    public void gotoContactPageByContactUsLink() {
 
-        WebUtils.moveToElementAndClick(wd, linkContactUs);
+        WebUtils.scrollToElement(wd,linkContactUs);
+        WebUtils.clickWithWaitForElement(wd, linkContactUs);
     }
 
-    public void gotoContactPageByContactMenu(){
+    public void gotoContactPageByContactMenu() {
 
         WebUtils.clickWithWaitForElement(wd, mnuContact);
     }

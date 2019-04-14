@@ -1,0 +1,298 @@
+{
+  "uid" : "a23b70ce4aecde3",
+  "name" : "TestNavigateFromContactMenuOption",
+  "fullName" : "tests.ui.LandingPageTests.TestNavigateFromContactMenuOption",
+  "historyId" : "65bd1e62731e84fc3416ed8f84e91385",
+  "time" : {
+    "start" : 1555243185206,
+    "stop" : 1555243189043,
+    "duration" : 3837
+  },
+  "description" : "Navigate to contact us page from contact menu",
+  "descriptionHtml" : "<p>Navigate to contact us page from contact menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "baseTestBeforeClass",
+    "time" : {
+      "start" : 1555243094467,
+      "stop" : 1555243094472,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initializeDriver",
+    "time" : {
+      "start" : 1555243094472,
+      "stop" : 1555243097846,
+      "duration" : 3374
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1555243097847,
+      "stop" : 1555243103224,
+      "duration" : 5377
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestBeforeClass",
+    "time" : {
+      "start" : 1555243160320,
+      "stop" : 1555243160321,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initializeDriver",
+    "time" : {
+      "start" : 1555243160321,
+      "stop" : 1555243162846,
+      "duration" : 2525
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1555243162846,
+      "stop" : 1555243171498,
+      "duration" : 8652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1555243171499,
+      "stop" : 1555243185204,
+      "duration" : 13705
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logStartMethod",
+    "time" : {
+      "start" : 1555243171498,
+      "stop" : 1555243171498,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logEndMethod",
+    "time" : {
+      "start" : 1555243189044,
+      "stop" : 1555243189044,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1555243159581,
+      "stop" : 1555243160319,
+      "duration" : 738
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "destroyDriver",
+    "time" : {
+      "start" : 1555243160319,
+      "stop" : 1555243160319,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestAfterClass",
+    "time" : {
+      "start" : 1555243160319,
+      "stop" : 1555243160319,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1555243193418,
+      "stop" : 1555243194167,
+      "duration" : 749
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "destroyDriver",
+    "time" : {
+      "start" : 1555243194167,
+      "stop" : 1555243194167,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestAfterClass",
+    "time" : {
+      "start" : 1555243194167,
+      "stop" : 1555243194168,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ui.LandingPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ui.LandingPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestNavigateFromContactMenuOption"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite2"
+  }, {
+    "name" : "suite",
+    "value" : "all-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ui.LandingPageTests"
+  }, {
+    "name" : "host",
+    "value" : "ALT01722"
+  }, {
+    "name" : "thread",
+    "value" : "56101@ALT01722.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a23b70ce4aecde3.json",
+  "parameterValues" : [ ]
+}

@@ -13,7 +13,7 @@ Used Page Object Model design pattern for test automation.
 
  
  Default browser is chrome else you can use below options 
- - firefox
+ - Firefox
  - Chrome
  - Opera
  - Edge
@@ -28,3 +28,5 @@ Used Page Object Model design pattern for test automation.
  
  Once allure is setup goto project directory and run below command
  * allure serve
+ 
+ * You can check sample generated report under allure-report

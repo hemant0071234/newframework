@@ -2,79 +2,118 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "TestContactUsTestWithMultipleData",
-    "uid" : "ea2da32e9f5b8fc2",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1555081858598,
-      "stop" : 1555081858599,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "TestContactUsEmailLabelText",
-    "uid" : "e69d3db5f6f1614e",
+    "uid" : "d62797e3c062cb4e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1555082015598,
-      "stop" : 1555082015680,
-      "duration" : 82
+      "start" : 1555243104716,
+      "stop" : 1555243104804,
+      "duration" : 88
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TestContactUsTestWithMultipleData",
-    "uid" : "dd9222f2129c449f",
+    "uid" : "10c7bf9c5c3e6ee",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1555082021542,
-      "stop" : 1555082024663,
-      "duration" : 3121
+      "start" : 1555243112828,
+      "stop" : 1555243116288,
+      "duration" : 3460
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "Hemant", "Janrao", "hemant.janrao@gmail.com", "Test company", "http://www.testcompany.com", "true", "Agency", "India", "9130021557", "Test description" ]
+    "parameters" : [ "Hemant", "Janrao", "hemant.janrao@gmail.com", "Test company", "http://www.testcompany.com", "true", "Agency", "Algeria", "9130021557", "Test description" ]
   }, {
     "name" : "TestCreateQueryWithAllFields",
-    "uid" : "fe4034480962152a",
+    "uid" : "3b5edbd21bc69f8c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1555082025790,
-      "stop" : 1555082028703,
-      "duration" : 2913
+      "start" : 1555243117590,
+      "stop" : 1555243121556,
+      "duration" : 3966
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TestCreateQueryWithRequiredFields",
-    "uid" : "fe2f46821f41e6d8",
+    "uid" : "de880069916d7d8c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1555082030073,
-      "stop" : 1555082032842,
-      "duration" : 2769
+      "start" : 1555243122889,
+      "stop" : 1555243125966,
+      "duration" : 3077
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TestGotoPrivacyPolicyPage",
-    "uid" : "b974b0c6a1505791",
+    "uid" : "33a732caa84e171c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1555082034469,
-      "stop" : 1555082036627,
-      "duration" : 2158
+      "start" : 1555243127230,
+      "stop" : 1555243128639,
+      "duration" : 1409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestMandatoryFields",
+    "uid" : "8f561d853986a566",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555243129908,
+      "stop" : 1555243144119,
+      "duration" : 14211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestMoreThan500CharactersNotAllowed",
+    "uid" : "a14c03018f159922",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555243145387,
+      "stop" : 1555243159580,
+      "duration" : 14193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestNavigateFromContactMenuOption",
+    "uid" : "a23b70ce4aecde3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555243185206,
+      "stop" : 1555243189043,
+      "duration" : 3837
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestNavigateFromContactUsLink",
+    "uid" : "aa907d47d89ce79a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1555243190956,
+      "stop" : 1555243193417,
+      "duration" : 2461
     },
     "flaky" : false,
     "newFailed" : false,

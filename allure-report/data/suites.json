@@ -2,94 +2,137 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Default Suite",
+    "name" : "Suite2",
     "children" : [ {
-      "name" : "contact",
+      "name" : "all-tests",
       "children" : [ {
         "name" : "tests.ui.ContactUsTests",
         "children" : [ {
-          "name" : "TestContactUsTestWithMultipleData",
-          "uid" : "ea2da32e9f5b8fc2",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
-          "status" : "skipped",
-          "time" : {
-            "start" : 1555081858598,
-            "stop" : 1555081858599,
-            "duration" : 1
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "TestContactUsEmailLabelText",
-          "uid" : "e69d3db5f6f1614e",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
+          "uid" : "d62797e3c062cb4e",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
           "status" : "passed",
           "time" : {
-            "start" : 1555082015598,
-            "stop" : 1555082015680,
-            "duration" : 82
+            "start" : 1555243104716,
+            "stop" : 1555243104804,
+            "duration" : 88
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "TestContactUsTestWithMultipleData",
-          "uid" : "dd9222f2129c449f",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
+          "uid" : "10c7bf9c5c3e6ee",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
           "status" : "passed",
           "time" : {
-            "start" : 1555082021542,
-            "stop" : 1555082024663,
-            "duration" : 3121
+            "start" : 1555243112828,
+            "stop" : 1555243116288,
+            "duration" : 3460
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "Hemant", "Janrao", "hemant.janrao@gmail.com", "Test company", "http://www.testcompany.com", "true", "Agency", "India", "9130021557", "Test description" ]
+          "parameters" : [ "Hemant", "Janrao", "hemant.janrao@gmail.com", "Test company", "http://www.testcompany.com", "true", "Agency", "Algeria", "9130021557", "Test description" ]
         }, {
           "name" : "TestCreateQueryWithAllFields",
-          "uid" : "fe4034480962152a",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
+          "uid" : "3b5edbd21bc69f8c",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
           "status" : "passed",
           "time" : {
-            "start" : 1555082025790,
-            "stop" : 1555082028703,
-            "duration" : 2913
+            "start" : 1555243117590,
+            "stop" : 1555243121556,
+            "duration" : 3966
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "TestCreateQueryWithRequiredFields",
-          "uid" : "fe2f46821f41e6d8",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
+          "uid" : "de880069916d7d8c",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
           "status" : "passed",
           "time" : {
-            "start" : 1555082030073,
-            "stop" : 1555082032842,
-            "duration" : 2769
+            "start" : 1555243122889,
+            "stop" : 1555243125966,
+            "duration" : 3077
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "TestGotoPrivacyPolicyPage",
-          "uid" : "b974b0c6a1505791",
-          "parentUid" : "fd2154eeb6d8dd477e0df23cbcdf56b5",
+          "uid" : "33a732caa84e171c",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
           "status" : "passed",
           "time" : {
-            "start" : 1555082034469,
-            "stop" : 1555082036627,
-            "duration" : 2158
+            "start" : 1555243127230,
+            "stop" : 1555243128639,
+            "duration" : 1409
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestMandatoryFields",
+          "uid" : "8f561d853986a566",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1555243129908,
+            "stop" : 1555243144119,
+            "duration" : 14211
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestMoreThan500CharactersNotAllowed",
+          "uid" : "a14c03018f159922",
+          "parentUid" : "f1286105c3fc9f2703bcfe079be0a8d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1555243145387,
+            "stop" : 1555243159580,
+            "duration" : 14193
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "fd2154eeb6d8dd477e0df23cbcdf56b5"
+        "uid" : "f1286105c3fc9f2703bcfe079be0a8d0"
+      }, {
+        "name" : "tests.ui.LandingPageTests",
+        "children" : [ {
+          "name" : "TestNavigateFromContactMenuOption",
+          "uid" : "a23b70ce4aecde3",
+          "parentUid" : "74bf43af9276d982ac7160c8aea4a992",
+          "status" : "passed",
+          "time" : {
+            "start" : 1555243185206,
+            "stop" : 1555243189043,
+            "duration" : 3837
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestNavigateFromContactUsLink",
+          "uid" : "aa907d47d89ce79a",
+          "parentUid" : "74bf43af9276d982ac7160c8aea4a992",
+          "status" : "passed",
+          "time" : {
+            "start" : 1555243190956,
+            "stop" : 1555243193417,
+            "duration" : 2461
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "74bf43af9276d982ac7160c8aea4a992"
       } ],
-      "uid" : "16c331ab97c2b53491170dab8673c7ea"
+      "uid" : "5485f0639558d64e40320c811f99a132"
     } ],
-    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+    "uid" : "96756d10e26dd20bf0c417e8a89df34e"
   } ]
 }

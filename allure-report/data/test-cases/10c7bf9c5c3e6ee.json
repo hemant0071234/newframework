@@ -1,0 +1,336 @@
+{
+  "uid" : "10c7bf9c5c3e6ee",
+  "name" : "TestContactUsTestWithMultipleData",
+  "fullName" : "tests.ui.ContactUsTests.TestContactUsTestWithMultipleData",
+  "historyId" : "1974b63b2ed5c8b7f06bfc2452ba0825",
+  "time" : {
+    "start" : 1555243112828,
+    "stop" : 1555243116288,
+    "duration" : 3460
+  },
+  "description" : "Send data with different data sets mentioned in data provider",
+  "descriptionHtml" : "<p>Send data with different data sets mentioned in data provider</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1555243111277,
+      "stop" : 1555243112823,
+      "duration" : 1546
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestBeforeClass",
+    "time" : {
+      "start" : 1555243094467,
+      "stop" : 1555243094472,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initializeDriver",
+    "time" : {
+      "start" : 1555243094472,
+      "stop" : 1555243097846,
+      "duration" : 3374
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1555243097847,
+      "stop" : 1555243103224,
+      "duration" : 5377
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestBeforeClass",
+    "time" : {
+      "start" : 1555243160320,
+      "stop" : 1555243160321,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initializeDriver",
+    "time" : {
+      "start" : 1555243160321,
+      "stop" : 1555243162846,
+      "duration" : 2525
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1555243162846,
+      "stop" : 1555243171498,
+      "duration" : 8652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logStartMethod",
+    "time" : {
+      "start" : 1555243111276,
+      "stop" : 1555243111276,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logEndMethod",
+    "time" : {
+      "start" : 1555243116289,
+      "stop" : 1555243116289,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1555243159581,
+      "stop" : 1555243160319,
+      "duration" : 738
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "destroyDriver",
+    "time" : {
+      "start" : 1555243160319,
+      "stop" : 1555243160319,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestAfterClass",
+    "time" : {
+      "start" : 1555243160319,
+      "stop" : 1555243160319,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTests",
+    "time" : {
+      "start" : 1555243193418,
+      "stop" : 1555243194167,
+      "duration" : 749
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "destroyDriver",
+    "time" : {
+      "start" : 1555243194167,
+      "stop" : 1555243194167,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTestAfterClass",
+    "time" : {
+      "start" : 1555243194167,
+      "stop" : 1555243194168,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ui.ContactUsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ui.ContactUsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestContactUsTestWithMultipleData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite2"
+  }, {
+    "name" : "suite",
+    "value" : "all-tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ui.ContactUsTests"
+  }, {
+    "name" : "host",
+    "value" : "ALT01722"
+  }, {
+    "name" : "thread",
+    "value" : "56101@ALT01722.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Hemant"
+  }, {
+    "name" : "arg1",
+    "value" : "Janrao"
+  }, {
+    "name" : "arg2",
+    "value" : "hemant.janrao@gmail.com"
+  }, {
+    "name" : "arg3",
+    "value" : "Test company"
+  }, {
+    "name" : "arg4",
+    "value" : "http://www.testcompany.com"
+  }, {
+    "name" : "arg5",
+    "value" : "true"
+  }, {
+    "name" : "arg6",
+    "value" : "Agency"
+  }, {
+    "name" : "arg7",
+    "value" : "Algeria"
+  }, {
+    "name" : "arg8",
+    "value" : "9130021557"
+  }, {
+    "name" : "arg9",
+    "value" : "Test description"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9612fc0ccd8da58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1555243107136,
+        "stop" : 1555243111273,
+        "duration" : 4137
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10c7bf9c5c3e6ee.json",
+  "parameterValues" : [ "Hemant", "Janrao", "hemant.janrao@gmail.com", "Test company", "http://www.testcompany.com", "true", "Agency", "Algeria", "9130021557", "Test description" ]
+}

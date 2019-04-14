@@ -1,61 +1,91 @@
 [ {
-  "uid" : "ea2da32e9f5b8fc2",
-  "name" : "TestContactUsTestWithMultipleData",
+  "uid" : "8f561d853986a566",
+  "name" : "TestMandatoryFields",
   "time" : {
-    "start" : 1555081858598,
-    "stop" : 1555081858599,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "critical"
-}, {
-  "uid" : "dd9222f2129c449f",
-  "name" : "TestContactUsTestWithMultipleData",
-  "time" : {
-    "start" : 1555082021542,
-    "stop" : 1555082024663,
-    "duration" : 3121
+    "start" : 1555243129908,
+    "stop" : 1555243144119,
+    "duration" : 14211
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
 }, {
-  "uid" : "e69d3db5f6f1614e",
-  "name" : "TestContactUsEmailLabelText",
-  "time" : {
-    "start" : 1555082015598,
-    "stop" : 1555082015680,
-    "duration" : 82
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b974b0c6a1505791",
-  "name" : "TestGotoPrivacyPolicyPage",
-  "time" : {
-    "start" : 1555082034469,
-    "stop" : 1555082036627,
-    "duration" : 2158
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "fe4034480962152a",
-  "name" : "TestCreateQueryWithAllFields",
-  "time" : {
-    "start" : 1555082025790,
-    "stop" : 1555082028703,
-    "duration" : 2913
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "fe2f46821f41e6d8",
+  "uid" : "de880069916d7d8c",
   "name" : "TestCreateQueryWithRequiredFields",
   "time" : {
-    "start" : 1555082030073,
-    "stop" : 1555082032842,
-    "duration" : 2769
+    "start" : 1555243122889,
+    "stop" : 1555243125966,
+    "duration" : 3077
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
+}, {
+  "uid" : "3b5edbd21bc69f8c",
+  "name" : "TestCreateQueryWithAllFields",
+  "time" : {
+    "start" : 1555243117590,
+    "stop" : 1555243121556,
+    "duration" : 3966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a23b70ce4aecde3",
+  "name" : "TestNavigateFromContactMenuOption",
+  "time" : {
+    "start" : 1555243185206,
+    "stop" : 1555243189043,
+    "duration" : 3837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14c03018f159922",
+  "name" : "TestMoreThan500CharactersNotAllowed",
+  "time" : {
+    "start" : 1555243145387,
+    "stop" : 1555243159580,
+    "duration" : 14193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33a732caa84e171c",
+  "name" : "TestGotoPrivacyPolicyPage",
+  "time" : {
+    "start" : 1555243127230,
+    "stop" : 1555243128639,
+    "duration" : 1409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa907d47d89ce79a",
+  "name" : "TestNavigateFromContactUsLink",
+  "time" : {
+    "start" : 1555243190956,
+    "stop" : 1555243193417,
+    "duration" : 2461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d62797e3c062cb4e",
+  "name" : "TestContactUsEmailLabelText",
+  "time" : {
+    "start" : 1555243104716,
+    "stop" : 1555243104804,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10c7bf9c5c3e6ee",
+  "name" : "TestContactUsTestWithMultipleData",
+  "time" : {
+    "start" : 1555243112828,
+    "stop" : 1555243116288,
+    "duration" : 3460
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

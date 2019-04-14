@@ -2,7 +2,377 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c36832-0fc0-4377-87fd-0e19b6a5fd9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/36407663c70d1f8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/589df398e4a6ad7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6ba52248af886ff5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/7424418626fe45a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b070957702454816.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b974b0c6a1505791.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d1bbc286f8505190.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/dd9222f2129c449f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e69d3db5f6f1614e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/ea2da32e9f5b8fc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/fe2f46821f41e6d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/fe4034480962152a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0084b746-05c5-4a98-830b-3f280de23c9f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/00a536ce-96e5-4024-a4a4-67e44628402f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/02a9616f-f232-4b8f-b54f-e968b5f3d9ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0319c205-e4ce-43e1-a4d5-384972ca29ec-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/054bbe41-7d19-4ce8-8d0d-006771e07585-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/058a7053-3c4f-4e31-aba5-4343c80766b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/08c345ff-4d35-448d-95d2-e715e4da3bf3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/08cf8f9e-0029-4f2c-84ff-b7a0df90cfdc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0903b003-34ae-4839-a4f8-657e91fad0b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0bc3777b-72b4-42f0-b793-2cebfe91d69a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0bda8f6a-8c6f-421d-8d54-d50026da27c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c35212c-bfb4-4168-903a-ce6418f38756-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c9d5703-7638-482e-b1ce-25a0e15e0516-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0fa521d4-abcb-4a14-b238-f1e8ea2becae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/114a055d-01eb-471e-bbdb-d9ac8c6d4e20-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1189bdba-74b8-46b6-bf64-98c2951c0666-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12a6ad2e-142b-43cf-bd6d-e5684c7b936f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1395fbc4-6561-4621-9f12-1daa05ea9036-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/13de1b0b-64c9-4d1a-a1db-1970ee436f2a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/14f7cdb5-6a8c-40fa-a4c8-e4bf027ffe6a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/17444a38-7e17-4e27-adff-9483f4bd2335-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/183ea456-42a9-4c18-a9d1-582ce24347e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1966cd4a-fc08-4be1-bcfa-83d9b25405e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/19c1f50d-4af4-45a0-b34c-1de017c3eaf3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1a8ece74-2f44-499c-bcff-8844311eab29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1acf6a4f-04ba-463d-8f57-8be94ddadcdf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1ad6d618-8214-43ea-aba8-4c4cdc92d3fd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b484392-3c46-4f6a-a7e0-d1accfc2d785-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b703161-2aa3-472d-a817-697ae5fc5b1d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1c199fbb-6f4e-404f-a72a-0b4f3261867e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1c6cced7-b4a8-4e3d-abdb-be04b856fce3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1cbf1b8f-e57c-4f25-a665-6514a664ad73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d6acb9b-d277-4a1a-8de4-79b553c777f0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d6d2eaf-0e46-477a-be80-aacf0109933b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1dfdc59f-14ef-4a1c-8f68-31e69e49befe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1e908887-6344-4cc2-9ef4-a15dfe82b28c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1fdcddbb-d2a3-4c12-9754-cd51359557af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2181af4b-b662-497b-ad36-e3ab4835681d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/22df258f-1b9d-4ed1-a012-ae217f236cf8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2305afe7-005b-4429-b23f-8d346239b2c4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/233c1ef1-f15e-4cbc-a597-52948c39b567-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/264c281c-1abd-4d3c-81dc-ac757c2d5b6b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/268cbdb6-c19f-49f7-b921-707ab67c2701-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/26b3fee8-dc95-4cad-abed-50198fb3cb81-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/26ff61ff-c0cb-4e60-9337-bf4ec663c835-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2719abce-1d4c-4410-bb34-244cca1a9282-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/276e0b9c-273f-4543-9d92-45b28174dc97-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2896293d-2085-48bf-a5bf-02fac46a93b8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2917a0d0-b474-406a-83a9-5599c96a953e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/29306181-6d61-481b-a1a9-b86d9a74574d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/29d4b293-1dac-4a2d-ae0a-1a3011665afb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a35373b-d0a7-47b5-a680-adcfd2ffddbd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a470474-f9e0-46a6-90cf-c7310a1f3913-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a59a520-a8d4-485f-8495-ced44275263f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2b0b655f-e9c4-471e-828d-8bc5457950b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2cdea7c4-2bbc-4fd5-9fd6-882c14251600-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2e413df7-910f-4024-9644-e86c253da9f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2ed655d9-ec78-4e49-abba-73fb2df13cab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f2eb9e8-34c8-4b9c-8148-2e0f436594b9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f355acc-40bd-4db0-b723-fc8d64c73963-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f88d527-6350-44f8-abdf-0f1e2215b1ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3037acde-be6e-4d3c-b13a-d90bd527abb9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/31e75b33-7131-4eda-a538-4186ed377d9c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/363e0e42-9677-478f-9442-fd15b91b2ff6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/36fce484-5a5f-478a-b88b-6b3e7403c029-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/39375b7f-7f0a-4283-aab1-49a5b56f44e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/39b078bf-8352-4f8f-9f82-ce82a562a851-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a5bb058-3ee3-4640-9c37-cde2748470a8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a7bc981-929a-427d-98e4-1496e819390b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3ae3a04b-e4e9-4796-9ff8-86194be4e185-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3cdb977e-2ea8-4e21-a4f7-aed7e0db928a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3e529c53-12a0-4716-92c4-c6acdaef7b53-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3f71907d-e845-4e65-85da-632b83317c90-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4374d851-a315-47ad-990c-964a98913564-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45b3e5b7-19e2-4112-be7a-c314a99c6647-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4667c695-1f50-462e-a0a8-5d10a3ad5ed1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4670f02a-173b-410d-8064-3263ea0cf723-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/467a20e4-74ab-4a0a-98d9-67d92fa4f826-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/48093229-6493-4a4f-8384-fc3b36bb3faa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4843fb20-52fe-4139-94ee-154538360d09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/49a5b5c2-bf84-44b2-9dfe-44f4e3599d1c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4bf79eed-222a-4b83-b1ae-f8c0c6c3b918-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4c980e8f-f5a6-46ea-bd3c-668d0c1d76ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4db96345-e00a-45e3-9676-ed7de9cf0dad-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4ed16d70-dd9b-4580-9cd5-8013b77b7f94-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/513f9c51-9eb2-4f65-8214-faad51490518-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/52642119-4249-427d-a6b3-09be6e7c73b2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/53b18635-b7a4-486b-84c2-7e00629c2bf7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/543f8b4b-b40a-4b38-b709-0964b02a72c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5494a944-c6a1-4071-8d1a-b1695e634d25-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/56f2941b-b662-4422-8946-d5a0941a00d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5867d2e3-25f9-4819-accb-175c044782ff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5926e47f-0bd5-4e63-9dad-d331fb23627d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5a5cf60b-f110-42ab-8a82-ff375c2c1278-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5bb398c1-6175-443d-9db4-d697c95b543b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5bd8a4d0-59e3-49e1-8b25-deee25ddba98-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5c7b76ca-0e8c-4d12-8582-c437ed4d43ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5c969cf6-9095-4772-ba38-51dee7d57441-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5cebea54-d6e6-4655-98d8-1b673a405d37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5dbfa668-466f-456e-9636-0083bf953d0d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5f0bc357-0b0a-4783-ac57-5442ea0dc1f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5f30c43a-6f35-44cc-b792-b22b046f1972-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5fa211a3-6901-44db-8577-1c1a3a4d7cf4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/619d12d3-00f4-4ec8-a4ff-09a259b9c22e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/628ef30d-28aa-4f61-bb02-bd7656e2f58b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/62be8509-e7b4-4efc-a0e5-e635f788bf95-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/62dfb00d-fc6f-4829-82ce-aa98fdcee219-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/644a34cf-ad59-4f57-9c7f-d19281d76531-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/65698ebe-3601-4f1b-9096-85e830f11224-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/675f01a4-b0cc-48a3-95ae-ec5ec858bed0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6893240a-8b14-48c9-adbe-92730ef05cdb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6949a1e0-f4b0-4a87-919c-8c3b615e2c5c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/69cfa21d-1557-405a-a598-e62f18ec62b2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/69f11425-5a45-4631-b5f0-dfee52c0ec16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6b11b727-a68e-4f0e-b542-209773e5e2ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6c3f2134-8feb-48fd-966c-7bb9548c9673-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6df08991-dc10-4d7f-b6ee-7537ebc82782-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6e8631bd-f737-4ba9-8672-75556803f324-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6ecac457-6d93-4e24-93c6-e238df5825d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/701c5aa2-b433-4c86-9e3c-13e6d6bf0736-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70360159-b01f-456d-a7c3-1f8c5204fe18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70bb22b9-c259-4414-a9df-c284fa965a07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70bd4157-9af9-4351-af2b-9459ecce3216-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/71fa5d99-2ed8-4161-9499-3581f34848ad-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/72d44cc3-c99f-4945-86f8-7b087a9b0e66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7333e5a9-7f33-4f47-96a7-e8948a56b16e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/739b8140-93a4-4291-9ccb-adb201463c42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/73a51642-0e2c-4a14-ab82-ca7ad703ac9b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/745611e5-f8e5-4534-9c9a-412cbe7c17a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/75c6b62b-54a5-48ac-a2dd-81786b0fd5cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/78bfdc3d-be08-4017-8209-b0ecf4dba827-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/799b3f4a-2d17-4175-8177-b8b48fc4513e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/79d4fd87-a3fb-4ff3-b81e-0e470787a351-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a34c13e-eb24-47bd-a084-2488838471c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7abf393a-1a0e-42b7-901c-75a032551a72-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7be4003e-f8c6-4045-8ccf-edb75f953bc8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c21b46c-0f35-48ac-99bd-fc4c343097aa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c49853d-c71e-4cfc-b760-3609a0394d15-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7f6807ca-09f1-4345-8806-8d7160bcea6f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80b562e3-9fd0-46fe-a6fd-6b9eed3c68ea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80ede15e-727a-45c7-b8c3-761c489898e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/822f3fe6-edbb-4c4b-bf29-5e9308e3941d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/83a74e71-143b-42a6-b556-3e59d10dce5f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/83e4b107-a7e5-4b3b-aa62-a2324f035d8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/854d92c7-b94b-43b0-a7dc-81d79bc579f3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/88ca119d-c72d-41de-a2f4-99b56b2ce91e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/88d49a33-e58e-49d8-af1f-c38c44502c24-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/89b3e195-760c-40b4-a1ad-d6681b202bb7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/89f4127b-04c3-41c0-a628-88f084be2813-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8e27fd94-67ec-431d-959b-9699a10831eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8e738692-e0e2-48fe-a267-8b1c85de2632-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/90311157-9475-41f2-bb4b-f1f1284d6630-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/906c8d05-b57f-48af-885c-ff264f78ece4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/90a3e814-0880-413c-a488-7e56a67ae223-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/910f5716-7bc2-4c94-8a09-eba5c4f90d99-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/91894e50-c981-43c2-a2aa-94acb780e507-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9323903a-7fbb-46cc-a42c-91a3c09ff2c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/933a1f48-07fc-4d6b-8650-b641e5732faf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/939fa7ea-0e0b-40b6-8663-91d82b7dcbcf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/949c5811-3437-4d68-ad4d-9ca617f38531-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/985a1e9e-c195-4c94-ad94-cabaf0f0aad8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98761d34-3764-4c21-b699-632f16904c25-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9aab98c9-7f2d-4499-8e30-050655afe57d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9c6e1fb2-258a-4659-980e-8bd0c9355ed8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9cc93ffd-76b1-4bee-a725-01524e035661-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9e59f9bf-4fc0-4005-9a19-d24a5abe6bc2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a08448e0-b131-48e1-8eb6-4fd4fa50ca60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a10f7ca9-85f2-4284-82d1-2148f6da0dc3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a1e4893c-9dca-4f80-b036-5005fd646647-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a3ba6b72-442b-4e5f-b16e-1eba825c61ef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a4abc2b1-d249-43a8-87e0-0f06713ae038-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a52c2922-d474-4570-a363-b0cbb6233481-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a5d44f83-485d-48dd-9da9-0672b1997e83-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a73b947b-955b-4f12-86b4-77ad9eb1e2ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a8346253-3713-4cbd-b009-1c352fb8e20c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a8b0994b-0906-4eb0-84b4-9a59d1d057e2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a90b0c49-931b-4aa4-962a-3d834696c2b5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9b69bc6-517d-4be7-a1bb-d31ae3a28b32-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9b8e242-2254-41af-84b6-93f2086fdd32-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ab983ee1-fa27-488f-8d81-9bbd3676e8b0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ac30ed97-2182-4663-8343-128ab5168dc8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ac339cf9-e779-47c9-a0f6-b18d3390847b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ace7e498-dfd6-4c8c-bec3-7103b0d6b45f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ad56ae9a-ce9b-411f-a17a-738315f238e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/af80050f-a4d2-4f10-ad07-2b311e458dd5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b0323fbb-af12-4d1a-bec8-85903c1e6e8a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b20e38af-8fa2-488a-9f03-26d661ab9e4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b474f5b4-af77-4aee-ab9d-1c9500758cca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b51b61fa-c217-4af5-984c-4bf872b5679e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b8303936-7db3-44b0-865c-37006405313c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b850b7e3-dc4a-4640-8a9e-35d8fe436a23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b9453967-9409-4fb1-9cb5-e8bd9473b1d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b98ba213-ee8f-47c5-bdba-48d88d639286-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b9c78fe8-f76e-488f-8f3b-3a6bc9cd54fa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b9ddc6d7-bf46-4b10-8189-ebbc5574e85f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bb6a4573-4bb3-4339-82b0-ba760b151fdc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bbdfbcd9-4ebc-4704-b1de-fffb9eb07792-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bc9ab6fe-baf8-420e-99f6-fa2261836d85-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/be6bf204-2684-4c97-aece-80d3c1a59bb5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/beb4deeb-361a-4eec-88f8-59984504b6bb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/becaec63-f80d-492c-bd3f-0c9a704394f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bf345049-c04c-454d-a074-46cc6ecb68aa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bf38f55d-2a2e-41b2-9793-4f71d3ccefd7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c10e92f3-3524-4737-8b49-71f83a1a048f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c11b394e-bd29-4ca8-bb62-20319037eebb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c1952c4c-c939-450a-bffd-28ef5292ac9a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c328d658-b6dc-48ed-917e-7efd962482d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c34d5b9b-feaa-4e59-b4a9-4bad3bef80c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c5374586-544b-4e28-a836-3d449f185956-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c570dcec-4e15-4f94-a664-bf189f265467-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c7c84cbb-06e2-4840-8c5c-7a6fa5266970-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ca691821-8762-493f-84ee-d650439d7842-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc3c1686-a445-4c53-b01e-a930981049bb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc72a8db-7336-4610-950e-1795802de29b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc9e9091-749c-4ebe-bdad-6a6a7b4df6af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cd62873a-e170-4023-b4e5-36b9a1a90ed6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cdcdfcd0-b1be-429e-aeb4-4f03b896ae83-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cdd66c94-defd-4abf-a634-a82b73a03ba4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ce8e62c5-a486-45de-8f6a-56174663a0d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf6f0bb8-2088-4231-ab4a-8881ad7c9525-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf703bcf-e3b9-464d-882b-e0906f75e281-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cfdbb64e-7085-4ee5-95d7-629bba2cda3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d0c8af88-842b-4d09-b2fa-f27f876b285e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d2630748-cb91-4eb7-b2b6-bd61a5d5f1bf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d2edf206-39a4-4274-b845-3505d1b81bd2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d3118249-a3b7-48ca-af40-c718eda0214e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d399cf98-4e78-442b-97c7-e36308b72129-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d3b0af54-12e2-41a4-99b0-07bb188ffc23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d4569d8a-99e0-4b6c-9c7e-8e6193a67c88-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d48a151e-6b84-43f9-91ad-cc6708c114ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d4c0fd61-2945-4929-b8ee-c0bf16aa1f8f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d5c6a9d3-2e13-4894-990b-df19ce61b1ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d5d62a88-7331-420a-a9c2-4f8fa89dab3e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d6b7c473-fd9f-426a-ae11-81f13218ec7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d771b45c-24f4-44da-ba58-5fdac86eb718-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d8017822-2ebc-4fda-b04a-70bdabd85bcd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/da93b311-0df6-4f2c-b7d5-567cb43788a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dada7b1a-5906-49a8-862d-acad06e288ee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dc278ec9-19ad-4b30-8a97-e8ce7efed6d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/df40c624-969a-4b4f-83ff-c49934a855e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e149fda1-3643-454c-b83a-1efe07fa6295-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1aefc3a-e342-4b39-b6d0-a570d251efc1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1ef05ee-d7d8-45df-808c-c043240ab6be-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e23cce69-033c-474f-9545-6e6f891c29bf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e550ae9e-c8c5-4351-9d6c-ef7408fcd99a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6bd6bf1-7767-490f-831f-5dc73d10b26e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6e1d648-d0fa-4ea1-a920-698f880a56ef-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e79c072c-690c-4301-8b6d-8c845687afb9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7c93e44-6eff-4c95-85e3-cc2c37c02469-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e9c24dd7-9d01-4d66-96f9-60de1ad5810d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ea8973b5-a00f-4965-af47-b1d9440c6fba-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eb12cb32-9cfe-467e-b721-27d48fcffc77-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ebc7aefb-a759-4528-9be8-4a5c2948a413-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ec767111-3fad-4965-afc3-d7c73cf24cb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ec87f68d-8966-4a33-85f5-ded1d30a7a29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ed2ce002-0cd4-4bd6-b4c5-3f29a03eeabb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ede7c5ae-75ef-4efb-bd81-670fa53364db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ee06ec53-e92b-43cb-9a99-b61f59d9705a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef21c279-2e25-49a9-9523-ab5510ceb894-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f137bac2-bb5f-4cc5-851d-2038856d5a98-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2f673da-2ac0-48ea-ae14-1fc567f5605d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f313bf4c-a548-4f4d-a4a4-3893a0ada215-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f31c1e57-58e1-4b39-b1cc-bee226bc6311-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f445fac1-8fd7-4a5a-b446-f4e8a1b6a666-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f49c56e6-619b-47d2-97c7-2b848db50aac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f5e94066-3b78-4fd5-ae89-fe75aaaed3bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9bbd65b-9d09-4e07-90b4-e62e38f593a2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fbd5fe5c-7b55-4f05-a909-af3dbb6d9d63-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fc41fad5-367c-4696-89ca-68235ade1bea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fccb4991-5a94-4e1e-bb26-22e4e03a07c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fd666e11-a233-4fc0-a549-7936bf8b3c41-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fe5d8c7f-39b4-46a8-8af6-ce261dc3dfa4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fe8f5014-8ef9-4ab4-8a9f-8d2be00e8dd7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fedf1d7b-846c-475c-a110-e1e961a22fd7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ff677f4c-eb59-42dc-b053-62cd3300e6d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listners/CustomListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listners/CustomListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/BaseUITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BaseUITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/WebUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/listners/CustomListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listners/CustomListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/pages/ContactUsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/pages/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/pages/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ui/ContactUsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ui/ContactUsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ui/LandingPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ui/LandingPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/TestCreateQueryWithAllFields/snapshot_TestCreateQueryWithAllFields.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/TestNavigateFromContactMenuOption/snapshot_TestNavigateFromContactMenuOption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/TestNavigateFromContactUsLink/snapshot_TestNavigateFromContactUsLink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/TestRendering/snapshot_TestRendering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite2/all-tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.ContactUsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.ContactUsTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.LandingPageTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.ui.LandingPageTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite2/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,80 +385,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
+        <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1956#1968#0" expanded="true" />
-                <element signature="e#3179#3180#0" expanded="true" />
-                <element signature="e#3242#3243#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/constants/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/constants/Groups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="425">
+                <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.0-BETA14/allure-java-commons-2.0-BETA14.jar!/io/qameta/allure/SeverityLevel.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/interactions/Actions.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="175">
+              <caret line="381" selection-start-line="381" selection-end-line="381" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#14292#14293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +434,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +444,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="-72">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="e#3995#3996#0" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="95" column="86" selection-start-line="95" selection-start-column="86" selection-end-line="95" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,10 +478,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            <state relative-caret-position="708">
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,31 +545,31 @@
         <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPages.java" />
         <option value="$PROJECT_DIR$/src/test/ui/ContactUsTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/constants/Browser.java" />
         <option value="$PROJECT_DIR$/src/main/java/constants/TestId.java" />
         <option value="$PROJECT_DIR$/src/test/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/java/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ContactUsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/BaseUITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/ui/ContactUsTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/listners/CustomListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/listners/Retry.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/constants/Groups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/listners/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/BaseUITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driver/WebUtils.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -240,48 +616,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -290,7 +624,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555154526111" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555243380645" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -327,25 +661,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LandingPageTests">
-    <configuration name="ContactUsTests.TestGotoPrivacyPolicyPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="contact" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ui" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.ContactUsTests" />
-      <option name="METHOD_NAME" value="TestGotoPrivacyPolicyPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LandingPageTests.TestNavigateFromContactUsLink">
     <configuration name="ContactUsTests.TestRendering" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="contact" />
       <extension name="coverage">
@@ -417,13 +733,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LandingPageTests.TestNavigateFromContactUsLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="contact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.LandingPageTests" />
+      <option name="METHOD_NAME" value="TestNavigateFromContactUsLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LandingPageTests.TestNavigateFromContactUsLink" />
         <item itemvalue="TestNG.LandingPageTests" />
         <item itemvalue="TestNG.LandingPageTests.TestCreateQueryWithAllFields" />
         <item itemvalue="TestNG.LandingPageTests.TestNavigateFromContactMenuOption" />
         <item itemvalue="TestNG.ContactUsTests.TestRendering" />
-        <item itemvalue="TestNG.ContactUsTests.TestGotoPrivacyPolicyPage" />
       </list>
     </recent_temporary>
   </component>
@@ -441,9 +775,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 50m 32s.xml">
-      <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LandingPageTests_TestNavigateFromContactMenuOption - 2019.04.13 at 12h 51m 05s.xml">
       <configuration name="LandingPageTests.TestNavigateFromContactMenuOption" configurationId="TestNG" />
     </history-entry>
@@ -471,10 +802,12 @@
     <history-entry file="LandingPageTests - 2019.04.13 at 13h 03m 29s.xml">
       <configuration name="LandingPageTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LandingPageTests_TestNavigateFromContactUsLink - 2019.04.14 at 13h 57m 26s.xml">
+      <configuration name="LandingPageTests.TestNavigateFromContactUsLink" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -490,7 +823,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4387755" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4387755" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -591,26 +924,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/3.4.0/webdrivermanager-3.4.0.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/nio/file/Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-          <folding>
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LandingPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -751,23 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseUITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -797,57 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#4067#4068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listners/CustomListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listners/Retry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -866,20 +1111,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.0-BETA14/allure-java-commons-2.0-BETA14.jar!/io/qameta/allure/SeverityLevel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/TestNavigateFromContactUsLink/snapshot_TestNavigateFromContactUsLink.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/TestNavigateFromContactMenuOption/snapshot_TestNavigateFromContactMenuOption.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/TestCreateQueryWithAllFields/snapshot_TestCreateQueryWithAllFields.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1956#1968#0" expanded="true" />
+            <element signature="e#4276#4277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/IInvokedMethodListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listners/CustomListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listners/Retry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,62 +1177,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Groups.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseUITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.0-BETA14/allure-java-commons-2.0-BETA14.jar!/io/qameta/allure/SeverityLevel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/ContactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        <state relative-caret-position="513">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1956#1968#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#3995#3996#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+          <folding>
+            <element signature="e#14292#14293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="95" column="86" selection-start-line="95" selection-start-column="86" selection-end-line="95" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="263">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/LandingPageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ui/ContactUsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="425">
+            <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

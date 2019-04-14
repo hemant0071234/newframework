@@ -1,1 +1,0 @@
-{"uuid":"bf345049-c04c-454d-a074-46cc6ecb68aa","name":"base.BaseTest.logEndMethod","description":"","start":1555094034381,"stop":1555094034381,"children":["fedf1d7b-846c-475c-a110-e1e961a22fd7"],"afters":[{"name":"logEndMethod","status":"passed","stage":"finished","description":"","start":1555094034381,"stop":1555094034381}]}

@@ -23,46 +23,46 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
         return "/contact/";
     }
 
-    @FindBy(id="first_name")
+    @FindBy(id = "first_name")
     private WebElement txtbxFirstName;
 
-    @FindBy(id="last_name")
+    @FindBy(id = "last_name")
     private WebElement txtbxLastName;
 
-    @FindBy(id="email")
+    @FindBy(id = "email")
     private WebElement txtbxEmailId;
 
-    @FindBy(id="company")
+    @FindBy(id = "company")
     private WebElement txtbxCompany;
 
-    @FindBy(id="URL")
+    @FindBy(id = "URL")
     private WebElement txtbxCompanyURL;
 
-    @FindBy(css="label.form__checkbox__icon")
+    @FindBy(css = "label.form__checkbox__icon")
     private WebElement chbkNewsLetters;
 
-    @FindBy(xpath="//div[@class='flounder']")
+    @FindBy(xpath = "//div[@class='flounder']")
     private WebElement selRole;
 
-    @FindBy(css="div.flounder.flounder-country_code")
+    @FindBy(css = "div.flounder.flounder-country_code")
     private WebElement selCountry;
 
-    @FindBy(id="phone__country-code")
+    @FindBy(id = "phone__country-code")
     private WebElement txtbxCountryCode;
 
-    @FindBy(id="phone__subscriber-number")
+    @FindBy(id = "phone__subscriber-number")
     private WebElement txtbxPhoneNumber;
 
-    @FindBy(id="description")
+    @FindBy(id = "description")
     private WebElement txtbxDescription;
 
-    @FindBy(id="submit-button")
+    @FindBy(id = "submit-button")
     private WebElement btnSubmit;
 
-    @FindBy(id="message--success")
+    @FindBy(id = "message--success")
     private WebElement lblMessageSuccess;
 
-    @FindBy(css="div.form__consumer__message.js-form__consumer__message")
+    @FindBy(css = "div.form__consumer__message.js-form__consumer__message")
     private WebElement lblEmailContact;
 
     @FindBy(css = "span.contact__form__legal > a")
@@ -72,8 +72,7 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
     private WebElement cookieClose;
 
 
-
-    public boolean isContactUsPageoaded(){
+    public boolean isContactUsPageoaded() {
 
         List<WebElement> allElements = new ArrayList<WebElement>();
 
@@ -94,7 +93,7 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
         try {
             WebUtils.waitForElementsToBeDisplayed(wd, allElements, 30);
             return true;
-        } catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
 
@@ -104,19 +103,19 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
     public void contactUSTest(String firstName, String lastName, String emilAddress,
                               String companyName, String companyURL, String newLetters,
                               String role, String countryName, String phoneNumber,
-                              String descriptionText){
+                              String descriptionText) {
 
         WebUtils.waitForPageLoad(wd);
 
-        WebUtils.fill(txtbxFirstName,firstName);
+        WebUtils.fill(txtbxFirstName, firstName);
 
-        WebUtils.fill(txtbxLastName,lastName);
+        WebUtils.fill(txtbxLastName, lastName);
 
-        WebUtils.fill(txtbxEmailId,emilAddress);
+        WebUtils.fill(txtbxEmailId, emilAddress);
 
-        WebUtils.fill(txtbxCompany,companyName);
+        WebUtils.fill(txtbxCompany, companyName);
 
-        WebUtils.fill(txtbxCompanyURL,companyURL);
+        WebUtils.fill(txtbxCompanyURL, companyURL);
 
         if (newLetters.equals("true")) {
             WebUtils.moveToElementAndClick(wd, chbkNewsLetters);
@@ -129,21 +128,21 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
             WebUtils.clickWithWaitForElement(wd, wd.findElement(By.xpath(roleXpath)));
         }
 
-        WebUtils.clickWithWaitForElement(wd,selCountry);
+        WebUtils.clickWithWaitForElement(wd, selCountry);
 
-        String countryXpath = "//div[@class='flounder__option' and normalize-space()='"+countryName+"']";
+        String countryXpath = "//div[@class='flounder__option' and normalize-space()='" + countryName + "']";
 
         WebUtils.moveToElementAndClick(wd, wd.findElement(By.xpath(countryXpath)));
 
-        WebUtils.fill(txtbxPhoneNumber,phoneNumber);
+        WebUtils.fill(txtbxPhoneNumber, phoneNumber);
 
-        WebUtils.fill(txtbxDescription,descriptionText);
+        WebUtils.fill(txtbxDescription, descriptionText);
 
         submitData();
     }
 
     @Step("Submit data")
-    public void submitData(){
+    public void submitData() {
         WebUtils.clickWithWaitForElement(wd, btnSubmit);
     }
 
@@ -161,51 +160,53 @@ public class ContactUsPage extends BasePage<ContactUsPage> {
         return WebUtils.getTextValue(wd, lblEmailContact);
     }
 
-    public void gotoPrivacyPolicy(){
+    public void gotoPrivacyPolicy() {
 
-        if(WebUtils.isElementDisplayed(cookieClose)){
+        if (WebUtils.isElementDisplayed(cookieClose)) {
             WebUtils.clickWithWaitForElement(wd, cookieClose, 30);
         }
         WebUtils.clickWithWaitForElement(wd, lnkPrivacyPolicy);
     }
 
-    private WebElement getWarningSymbol(String labelName){
+    private WebElement getWarningSymbol(String labelName) {
 
-        return wd.findElement(By.xpath("//label[normalize-space()='"+labelName+"']" +
+        return wd.findElement(By.xpath("//label[normalize-space()='" + labelName + "']" +
                 "/following-sibling::div[contains(@class,'error-container--icon')]"));
     }
 
-    public WebElement getWarningSymbolForPhoneCountry(String labelName){
+    public WebElement getWarningSymbolForPhoneCountry(String labelName) {
 
-        return wd.findElement(By.xpath("//label[normalize-space()='"+labelName+"']" +
+        return wd.findElement(By.xpath("//label[normalize-space()='" + labelName + "']" +
                 "/following-sibling::*/div[contains(@class,'error-container--icon')]"));
     }
 
-    public boolean isWarningSymbolDisplayed(String labelName){
+    public boolean isWarningSymbolDisplayed(String labelName) {
         try {
             return WebUtils.isElementDisplayed(getWarningSymbol(labelName));
-        }catch(Exception e){ return false;}
+        } catch (Exception e) {
+            return false;
+        }
 
     }
 
-    public String getWarningSymbolTooltipText(String labelName){
+    public String getWarningSymbolTooltipText(String labelName) {
 
         return WebUtils.getTextValue(wd, getWarningSymbol(labelName));
     }
 
-    public void hoverOnWarningSymbol(String labelName){
+    public void hoverOnWarningSymbol(String labelName) {
 
         WebUtils.moveToElement(wd, getWarningSymbol(labelName));
     }
 
-    public void fillDescriptionText(String descriptionText){
+    public void fillDescriptionText(String descriptionText) {
 
         txtbxDescription.clear();
         WebUtils.fill(txtbxDescription, descriptionText);
     }
 
-    public void setFocus(){
-        JavascriptExecutor jsx = (JavascriptExecutor)wd;
+    public void setFocus() {
+        JavascriptExecutor jsx = (JavascriptExecutor) wd;
         jsx.executeScript("window.scrollBy(0,450)", "");
 
     }

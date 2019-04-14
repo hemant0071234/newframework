@@ -9,35 +9,31 @@ import org.testng.annotations.*;
 import tests.pages.ContactUsPage;
 import tests.pages.LandingPage;
 
-public class LandingPageTests extends BaseUITest
-{
+public class LandingPageTests extends BaseUITest {
     private LandingPage landingPage;
 
 
-    @BeforeClass(alwaysRun=true)
-    public void beforeClass()
-    {
+    @BeforeClass(alwaysRun = true)
+    public void beforeClass() {
         landingPage = new LandingPage(wd).navigateTo();
     }
 
-    @BeforeMethod(alwaysRun=true)
-    public void beforeMethod()
-    {
+    @BeforeMethod(alwaysRun = true)
+    public void beforeMethod() {
         landingPage.navigateTo();
         Assert.assertTrue(landingPage.isLandingPageLoaded(),
                 "Some elements on the page are not loaded properly");
     }
 
     @AfterClass()
-    public void afterTests()
-    {
+    public void afterTests() {
         wd.quit();
     }
 
 
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact menu")
-    public void TestNavigateFromContactMenuOption(){
+    public void TestNavigateFromContactMenuOption() {
 
         landingPage.gotoContactPageByContactMenu();
 
@@ -51,7 +47,7 @@ public class LandingPageTests extends BaseUITest
 
     @Test(retryAnalyzer = Retry.class, groups = {Groups.CATEGORY_SANITY, Groups.CATEGORY_UI})
     @Description("Navigate to contact us page from contact us link")
-    public void TestNavigateFromContactUsLink(){
+    public void TestNavigateFromContactUsLink() {
 
         landingPage.gotoContactPageByContactUsLink();
 
