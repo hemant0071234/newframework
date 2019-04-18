@@ -18,7 +18,7 @@ Used Page Object Model design pattern for test automation.
  - Opera
  - Edge
  
- * mvn test -Dbrowser="firefox" [To run tests in desired browser]
+ * mvn test -Dbrowser="Firefox" [To run tests in desired browser]
  
  
  To generate test report

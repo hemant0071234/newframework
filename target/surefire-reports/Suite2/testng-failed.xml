@@ -12,7 +12,8 @@
           <include name="logEndMethod"/>
           <include name="afterTests"/>
           <include name="beforeClass"/>
-          <include name="TestContactUsTestWithMultipleData" invocation-numbers="0"/>
+          <include name="TestMoreThan500CharactersNotAllowed"/>
+          <include name="TestContactUsTestWithMultipleData" invocation-numbers="0 0"/>
           <include name="beforeMethod"/>
           <include name="baseTestAfterClass"/>
         </methods>
